@@ -35,7 +35,8 @@ Para participar do experimento, recomenda-se:
 - Conta ativa no Trello.
 
 ### B) Configuração
-O experimento será realizado diretamente no Trello, utilizando o plugin ArchHypo.AI. Não é necessário instalar software adicional além do Power-Up.
+O experimento será realizado diretamente no Trello, utilizando o plugin ArchHypo.AI. 
+Não é necessário instalar software adicional.
 
 #### Ambiente
 - Navegador atualizado (Chrome, Firefox, Edge, etc.)
@@ -53,7 +54,7 @@ Decisões arquiteturais em projetos de software envolvem incertezas que impactam
 ### D) Visão Geral do Experimento
 Você deverá realizar as seguintes etapas:
 
-1) Criar um Board Template com as colunas recomendadas:
+1) Criar um Board Template com as colunas recomendadas, confura no item 1 do [Como usar (passo a passo)](#e--como-usar-passo-a-passo):
    - INCERTEZA
    - ITEM PLANO TÉCNICO
    - A FAZER
