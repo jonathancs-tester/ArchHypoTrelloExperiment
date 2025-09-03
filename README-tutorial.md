@@ -1,12 +1,11 @@
 # 📑 Sumário
 - [📖 User Guide](#-user-guide)
-  - [Principais Ações](#-principais-ações)
+  - [Como Usar (Passo a Passo)](#-como-usar-passo-a-passo)
     - [Criar um Board Template](#%EF%B8%8F-criar-um-board-template)
     - [Criar uma Incerteza](#-criar-uma-incerteza)
-    - [Criar Plano Técnico](#-criar-plano-técnico)
     - [Add/Atualizar Métricas](#-addatualizar-métricas)
-    - [ArchHypo Métricas](#-archhypo-métricas)
-  - [Como Usar (Passo a Passo)](#-como-usar-passo-a-passo)
+    - [Criar Plano Técnico](#-criar-plano-técnico)
+    - [Visualizar Métricass](#-archhypo-métricas)
   
 ## 📖 User Guide
 
