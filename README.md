@@ -33,6 +33,8 @@ Para participar do experimento, recomenda-se:
 - Conhecimento básico sobre Trello e uso de Power-Ups.
 - Familiaridade com conceitos de arquitetura de software e requisitos não funcionais.
 - Conta ativa no Trello.
+- Conhecimento sobre o [Guia do Usuário](README-tutorial.md) do ArchHypo Trello Plugin.
+- Conhecimento sobre os [Padrões ArchHypo](README-padroes.md).
 
 ### B) Configuração
 O experimento será realizado diretamente no Trello, utilizando o plugin ArchHypo.AI. 
@@ -65,78 +67,75 @@ Você deverá realizar as seguintes etapas:
 4) Gerar Plano Técnico com base na hipótese registrada.
 5) Visualizar Métricas por meio dos gráficos disponíveis no plugin.
 
-### E) 🚀 Como usar (passo a passo)
+### E) Exemplo de Uso 
 
-1. 🗂️ **Criar Board Template** → Clique em *"Criar um Board Template"* para começar.
+Utilizar o plugin para identificar incertezas arquiteturais no email e criar hipóteses técnicas no Trello, com planos de validação.
 
-Adicione as colunas obrigatórias necessárias (ex: INCERTEZA, ITEM PLANO TECNICO, A FAZER, EM ANDAMENTO CONCLUIDO) para utilizar a gestão de hipóteses e decisões arquiteturais .
+Passos:
+1) Leitura do Email
+   O participante deve ler o email abaixo e identificar as incertezas.
 
-![Add Board Template](img/image-1.png)
-
-![Board Template](img/image.png)
-
-Lembrando que você pode criar outras colunas personalizadas.
-
-2. ❓ **Criar Incerteza** → Clique em *"Criar uma Incerteza"* e preencha as informações.  
-   - 💡 O LLM sugere hipótese + motivo (você pode editar).
-  
-     Ao registrar uma **Incerteza**, o LLM sugere uma **Hipótese** e sua classificação (pode ser ajustada pelo usuário).
-
-![Nova Incerteza](img/image-2.png)
-
-![Nova Inceteza 2](img/image-3.png)
-
-![Hipotese](img/image-4.png)
-
-![NFR](img/image-5.png)
-
-![Incerteza](img/image-6.png)
-
-![Impacto](img/image-7.png)
-
-![Card Criado](img/image-8.png)
-  
-3. 🏷️ **Adicionar Métricas** → Clique em *"Add/Atualizar Métricas"* para configurar os labels.
-  - Hipóteses → *Nível de Incerteza, Impacto e Requisito Não Funcional*  
-  - Itens do Plano Técnico → *Padrões ArchHypo*  
-
-![Botao Power UP](img/image-9.png)
-
-![Add/Atualizar Métrica](img/image-10.png)
-
-![Metricas Adicionado](img/image-11.png)
-
-4. 📋 **Gerar Plano Técnico**  
-   - Abra o card da hipótese criada.  
-   - Clique em *"Plano Técnico"* → *"Gerar Plano Técnico"*.  
-   - Selecione os itens sugeridos para editar ou gerar padrões ArchHypo.  
-   - 💡 O LLM sugere informações + justificativas (editáveis).
-
-![Botao Power Up](img/image-9.png)
-
-![Bottao Plano Tecnico](img/image-12.png)
-
-![Gerar](img/image-13.png)
-
-![Editar](img/image-14.png)
-
-![Padrao](img/image-15.png)
-
-![Plano Criar](img/image-16.png)
+> **De:** equipe@sistema.com.br
+> 
+> **Para:** desenvolvimento@sistema.com.br
+> 
+> **Assunto:** Dúvidas sobre funcionalidades e arquitetura do sistema  
+>  
+> Olá equipe,  
+>  
+> Estamos avançando com o desenvolvimento do sistema e surgiram algumas dúvidas importantes que precisamos esclarecer tecnicamente.  
+>  
+> Uma das preocupações é se conseguiremos processar lotes de 1GB por minuto utilizando apenas um servidor.
+> Isso pode impactar diretamente a arquitetura, pois talvez seja necessário distribuir a aplicação.
+>Estamos usando os dados do ano anterior como referência e projetando para este ano com apoio do cliente. 
+>  
+> Outra questão é se os componentes que estamos utilizando são compatíveis com o protocolo de autenticação Single Sign-On do governo.
+> A plataforma GeneXus oferece integração com alguns protocolos, mas ainda não temos certeza se o protocolo específico do governo é compatível.
+>
+> Por fim, precisamos garantir que o sistema seja compatível com o formato de dados antigo e o novo.
+> O cliente quer manter os dados históricos no formato original, sem migração.
+> Ainda não sabemos qual seria a melhor forma de fazer isso dentro da GeneXus  
+>  
+> Atenciosamente,
+> 
+> Equipe de Desenvolvimento 
 
 
-5.📋 **Gerenciar Itens do Plano Técnico**  
-   - Os itens são adicionados na coluna **ITEMS PLANO TÉCNICO**, com IDs no formato:  
-     - `H1` → Hipótese 1  
-     - `TPI1` → Tech Plan Item 1
+2) Criação de Hipóteses no Trello com ArchHypo Plugin
+   Para cada incerteza, o participante deve usar o plugin para criar uma hipótese com os seguintes campos:
 
-   ![Plano Board](img/image-17.png)
-   
-6. 📊 **Visualizar Métricas** → Use *ArchHypo Métricas* para acompanhar evolução em gráficos e gerenciar as métricas e labels de categorização de Hipóteses e Itens de Plano Técnico.
+- Título da Hipótese (ex: H1. Processamento de 1GB/min com 1 servidor)
+- Descrição da Incerteza
+- Requisito Não Funcional (Performance, Segurança, Flexibilidade e etc)
+- Nível de Incerteza (Alto)
+- Nivel de Impacto (Alto)
 
-![Botao Métricas](img/image-18.png)
+Gerenciamento no Trello
+O plugin deve criar os cartões no board configurado, com etiquetas correspondentes às categorias e campos preenchidos conforme o plano técnico.
 
-![Métricas](img/image-19.png)
+3) Gerar Plano Técnico:
+   Para cada hipótese, o participande deve gerar um Itens de um Plano Técnico com os seguintes campos:
+
+- Título da Item do Plano Tenico (ex: H1 - TPI 1. Analisar o esquema do banco de dados)
+- Objetivo
+- Descrição
+- Padrão ArchHypo (Paln for Preparation)
+- Tradeoff
+
+💡 Resultado Esperado
+Após o uso do plugin, o board do Trello deve conter:
+
+- **3 cartões de hipóteses:**
+    - H1: 
+    - H2: 
+    - H3: 
+
+- **Pelo menos 3 cartões de Itens do Plano Técnico:**
+    - H1 - TP1: 
+    - H2 - TP1: 
+    - H3 - TP1: 
+
+**Obs: Todos os cards devem ser categorizados pelas labels/métricas.**
 
 ### F) Finalização
 
