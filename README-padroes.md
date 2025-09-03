@@ -115,7 +115,7 @@ A cada entrega de sprint, a equipe executa testes de carga e segurança automati
 ---
 
 ## Software Analytics (What You Need to Know)
-*Explicação:**
+**Explicação:**
 
 Esse padrão foca em identificar lacunas de conhecimento que impedem decisões arquiteturais. Ele incentiva a busca ativa por informações críticas, seja por pesquisa, entrevistas ou análise de dados.
 
