@@ -3,9 +3,9 @@
   - [Como Usar (Passo a Passo)](#-como-usar-passo-a-passo)
     - [Criar um Board Template](#%EF%B8%8F-criar-um-board-template)
     - [Criar uma Incerteza](#-criar-uma-incerteza)
-    - [Add/Atualizar Métricas](#-addatualizar-métricas)
+    - [Add/Atualizar Métricas](#%EF%B8%8F-addatualizar-métricas)
     - [Criar Plano Técnico](#-criar-plano-técnico)
-    - [Visualizar Métricass](#-archhypo-métricas)
+    - [Visualizar Métricass](#-visualizar-métricas)
   
 ## 📖 User Guide
 
