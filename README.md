@@ -141,11 +141,18 @@ Após o uso do plugin, o board do Trello deve conter:
 
 Agradecemos sua participação no teste do ArchHypo Plugin para Trello!
 
-Este experimento tem como objetivo avaliar como ajustes simples no código — como a desativação de recursos não essenciais — podem contribuir para uma execução mais eficiente, sem comprometer a funcionalidade principal do plugin.
+Este experimento tem como propósito:
+
+ - Avaliar a usabilidade e eficácia do ArchHypo Plugin
+ - Identificar e desativar recursos não essenciais
+ - Propor melhorias funcionais e técnicas no plugin
+ - Contribuir para uma execução mais eficiente e sustentável no desenvolvimento de software
 
 📋 Após concluir as tarefas, preencha o formulário disponível em: [Link do Formulário](https://forms.gle/SzHdND58MWyCouZr8)
 
-Seu retorno é fundamental para evoluirmos o ArchHypo e promovermos práticas mais sustentáveis no desenvolvimento de software.
+Seu retorno é essencial para evoluirmos o ArchHypo Plugin e promovermos práticas mais inteligentes e sustentáveis na engenharia de software.
+
+Muito obrigado pela sua colaboração!
 
 --------------------------------------------------------------------------------------------------------------------
 
