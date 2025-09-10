@@ -5,7 +5,7 @@
 - [Architectural Trigger](#architectural-trigger)
 - [Bring the Specialist](#bring-the-specialiste)
 - [Continuous Inspection](#continuous-inspection)
-- [Learning from Experimentse](#learning-from-experiments)
+- [Learning from Experiments](#learning-from-experiments)
 - [Plan for Preparation](#plan-for-preparation)
 - [Postpone Uncertain Decisions](#postpone-uncertain-decisions)
 - [Protective Guideline](#protective-guideline)
