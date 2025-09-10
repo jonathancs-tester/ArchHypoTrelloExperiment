@@ -55,8 +55,7 @@ Esse padrão promove a revisão contínua da arquitetura ao longo do ciclo de vi
 
 **Exemplo:**
 
-Durante reuniões semanais, a equipe revisa métricas de acoplamento entre módulos e identifica que dois serviços estão se tornando excessivamente dependentes, propondo uma refatoração.
-
+Se implementarmos monitoramento contínuo na arquitetura, com análise automática de qualidade de código, vulnerabilidades de segurança e desempenho, então seremos capazes de identificar problemas arquiteturais, técnicos e operacionais de forma antecipada, evitando débitos técnicos e falhas em produção.
 ---
   
 ## Learning from Experiments
@@ -77,7 +76,7 @@ Esse padrão incentiva preparar a arquitetura para decisões futuras, mesmo que 
 
 **Exemplo:**
 
-Sabendo que futuramente o sistema pode precisar suportar múltiplos idiomas, a equipe já estrutura o front-end com suporte a internacionalização, mesmo que inicialmente só use português.
+Se definirmos antecipadamente todas as atividades, recursos, ferramentas e responsabilidades necessárias para iniciar o projeto, então poderemos garantir uma preparação eficiente que minimizará riscos, atrasos e incertezas durante a fase de execução.
 
 ---
 
@@ -121,7 +120,7 @@ Esse padrão foca em identificar lacunas de conhecimento que impedem decisões a
 
 **Exemplo:**
 
-Antes de definir a arquitetura de cache, a equipe precisa saber o tempo médio de acesso e o volume de dados por sessão. Eles coletam essas métricas com o time de produto e usuários reais
+Antes de definir a arquitetura de cache, a equipe precisa saber o tempo médio de acesso e o volume de dados por sessão. Eles coletam essas métricas com o time de produto e usuários reais.
 
 ---
 
