@@ -79,12 +79,18 @@ Durante o treinamento, os(as) participantes deverão realizar as seguintes ativi
 
 O objetivo principal do experimento é utilizar o plugin ArchHypo.AI para identificar incertezas arquiteturais presentes no e-mail e, a partir delas, elaborar hipóteses técnicas no Trello, acompanhadas de planos técnicos de validação.
 
-Passos:
+#### Passos:
 
 1) Acesse o link correspondente ao grupo previamente designado, conforme listado na seção de [Treinamento - ArchHypo.AI](#d-treinamento--archhypoai).
 
-2) Leitura do Email
-   O participante deve ler o email abaixo e identificar as incertezas.
+2) Identifique as Incertezas
+
+Neste passo consiste na leitura atenta do e-mail fornecido. A partir dessa leitura, o(a) participante deverá identificar **três incertezas** arquiteturais presentes no conteúdo.
+
+Essas incertezas representam dúvidas, lacunas ou aspectos indefinidos que podem impactar decisões técnicas no projeto. Elas servirão como base para a criação de hipóteses técnicas nas etapas seguintes.
+
+💡 Dica:
+Procure por trechos do e-mail que indiquem falta de clareza, decisões pendentes, requisitos vagos ou preocupações técnicas. Esses elementos geralmente apontam para incertezas que precisam ser exploradas e validadas.
 
 > **De:** equipe@sistema.com.br
 > 
@@ -92,34 +98,32 @@ Passos:
 > 
 > **Assunto:** Dúvidas sobre funcionalidades e arquitetura do sistema  
 >  
-> Olá equipe,  
+> Olá Equipe de Desenvolvimento,  
 >  
-> Estamos avançando com o desenvolvimento do sistema e surgiram algumas dúvidas importantes que precisamos esclarecer tecnicamente.  
->  
-> Uma das preocupações é se conseguiremos processar lotes de 1GB por minuto utilizando apenas um servidor.
-> Isso pode impactar diretamente a arquitetura, pois talvez seja necessário distribuir a aplicação.
->Estamos usando os dados do ano anterior como referência e projetando para este ano com apoio do cliente. 
->  
-> Outra questão é se os componentes que estamos utilizando são compatíveis com o protocolo de autenticação Single Sign-On do governo.
-> A plataforma GeneXus oferece integração com alguns protocolos, mas ainda não temos certeza se o protocolo específico do governo é compatível.
+> Conforme avançamos nas etapas de desenvolvimento do sistema de gestão de documentos voltado para órgãos públicos — cuja principal função é organizar, armazenar e disponibilizar digitalmente documentos
+> administrativos e jurídicos — surgiram algumas observações técnicas que gostaríamos de compartilhar para alinhamento.
+> O projeto está sendo conduzido em parceria com o cliente, que tem fornecido dados operacionais e requisitos funcionais e não funcionais ao longo das últimas semanas.
 >
-> Por fim, precisamos garantir que o sistema seja compatível com o formato de dados antigo e o novo.
-> O cliente quer manter os dados históricos no formato original, sem migração.
-> Ainda não sabemos qual seria a melhor forma de fazer isso dentro da GeneXus  
+> Durante as últimas reuniões, discutimos a estrutura de armazenamento e o fluxo de dados, especialmente considerando os volumes projetados para este ano.
+> O sistema deverá lidar com diferentes formatos de dados, incluindo arquivos legados em XML e documentos recentes em JSON. O cliente expressou interesse em preservar os dados históricos no formato original, o
+> que pode impactar a forma como os componentes de leitura e persistência são estruturados. Essa coexistência de formatos pode exigir atenção especial na forma como estruturamos os componentes de leitura e
+> armazenamento.
+>
+> A equipe de desenvolvimente tem utilizado os registros operacionais do ciclo anterior como base para estimar o comportamento do sistema, especialmente em relação ao volume de documentos processados. Embora
+> esses dados forneçam uma boa referência inicial, o cliente projeta um aumento considerável na carga para este ano, o que pode alterar significativamente o padrão de uso em horários críticos. Em algumas
+> simulações internas, observamos que os lotes de documentos podem atingir volumes próximos a 1GB por minuto, o que nos leva a revisar a estratégia atual de infraestrutura, ainda centrada em um único servidor,
+> para entender se ela será suficiente frente às novas demandas.
+>
+> Outro ponto que surgiu é a necessidade de integração com o sistema de autenticação utilizado por plataformas governamentais, que operam com Single Sign-On. Como estamos utilizando um
+> framework multiplataforma, é importante verificar se os componentes atuais oferecem suporte adequado ou se será necessário algum tipo de adaptação para garantir conformidade com os protocolos exigidos.
+>
+> Seguimos à disposição para discutir esses pontos com mais profundidade e avaliar possíveis abordagens técnicas.
 >  
 > Atenciosamente,
 > 
-> Equipe de Desenvolvimento 
+> Gerente de Produto
 
-3) Identifique as Incertezas
-
-Com base no conteúdo do e-mail fornecido anteriormente, o(a) participante deverá identificar **três incertezas** arquiteturais. Essas incertezas representam aspectos do sistema que ainda não estão totalmente definidos, compreendidos ou validados, e que podem impactar decisões técnicas futuras.
-
-💡 O que é uma incerteza arquitetural?
-
-É uma dúvida ou lacuna de conhecimento relacionada à arquitetura do sistema, como desempenho esperado, segurança, escalabilidade, integração entre componentes, entre outros.
-
-4) Criação de Hipóteses no Trello com o Plugin ArchHypo
+3) Criação de Hipóteses no Trello com o Plugin ArchHypo
    
 Nesta etapa, o(a) participante deverá utilizar o ArchHypo.AI no Trello para transformar as incertezas identificadas em hipóteses técnicas. Cada hipótese será registrada como um cartão no Trello, preenchendo os seguintes campos:
 
@@ -141,7 +145,7 @@ H2: [Título e informações da segunda hipótese]
 H3: [Título e informações da terceira hipótese]
 
 
-5) Gerar Plano Técnico
+4) Gerar Plano Técnico
 
 Para cada hipótese registrada, o(a) participante deverá utilizar o ArchHypo.AI para criar itens de um Plano Técnico. Cada item deve conter os seguintes campos:
 
