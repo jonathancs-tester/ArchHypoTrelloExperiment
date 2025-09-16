@@ -38,23 +38,68 @@ Para utilizar o plugin ArchHypo.AI corretamente, é essencial que o quadro do Tr
 
 #### ❓ Criar uma Incerteza
 Clique em *"Criar uma Incerteza"* para iniciar o fluxo de criação da Incerteza.
-   - 💡 O LLM sugere hipótese + motivo (você pode editar).
-  
-     Ao registrar uma **Incerteza**, o LLM sugere uma **Hipótese** e sua classificação (pode ser ajustada pelo usuário).
 
 ![Nova Incerteza](img/image-2.png)
 
+**1) Descreva a Incerteza:**
+
+DIgite a incerteza arquitetural identificada com maior detalhamento possivel
+
 ![Nova Inceteza 2](img/image-3.png)
+
+---
+
+**2)Hipótese:**
+
+O modelo de linguagem (LLM) sugere automaticamente uma hipótese técnica relacionada à incerteza descrita e a justificativa.
+Exemplo de hipótese sugerida:
+_"A principal incerteza reside em como garantir a eficácia e a colaboração fluída entre os Agentes LLM..."_
 
 ![Hipotese](img/image-4.png)
 
+O usuário pode editar a hipótese sugerida e o ArchHypo.AI Plugin solicitará uma justificativa para ser utilizada no aprendizado do LLM.
+
+---
+
+**3) Requisito Não Funcional (NFR):**
+
+O sistema solicita que o usuário selecione ou justifique o requisito não funcional relacionado à hipótese (ex: desempenho, segurança, interoperabilidade).
 ![NFR](img/image-5.png)
+
+---
+
+**4)Avaliação da Incerteza:**
+
+A incerteza é classificada em termos de nível (ex: Alto, Médio, Baixo), o que representa o grau de desconhecimento ou risco associado àquela questão.
 
 ![Incerteza](img/image-6.png)
 
+---
+
+**5)Avaliação do Impacto:**
+
+Após a sugestão da hipótese, o sistema solicita que o usuário avalie o impacto que essa hipótese pode ter na arquitetura do sistema.
+
 ![Impacto](img/image-7.png)
 
+O impacto refere-se às consequências técnicas caso a hipótese se confirme ou não.
+O usuário pode selecionar o nível de impacto (ex: Alto, Médio, Baixo), considerando fatores como:
+ - Complexidade da implementação
+ - Riscos para desempenho, segurança ou interoperabilidade
+ - Dependência entre componentes
+
+
+---
+
+Ao finalizar esses passos os card é criado com sucesso conforme a imagem abaixo:
+
 ![Card Criado](img/image-8.png)
+
+**Navegação:**
+
+Botões "Anterior" e "Próximo" permitem navegar entre as etapas do fluxo. Porém o não mantem o valor sugerido pelo LLM caso volte a etapa
+
+---
   
 #### 🏷️ Add/Atualizar Métricas  
 Clique em *"Add/Atualizar Métricas"* para configurar os labels.
