@@ -32,9 +32,9 @@ Para participar do experimento, recomenda-se:
 
 - Conta ativa no Trello.
 - Familiaridade com conceitos de arquitetura de software e requisitos não funcionais.
-- Interesse em realizar leitura e aprendizado durante o experimento, com base nos seguintes materiais de apoio:
-   - Padrões ArchHypo: documento introdutório sobre os padrões utilizados. Recomenda-se a leitura introdutória disponível em: [Padrões ArchHypo](README-padroes.md).
-   - [Guia do Usuário](README-tutorial.md) do ArchHypo Trello Plugin: material de referência que poderá ser consultado ao longo do experimento.
+- Interesse em realizar e aprender durante o experimento, com base nos seguintes materiais de apoio:
+   - [Padrões ArchHypo](README-padroes.md): Recomenda-se a leitura do documento introdutório sobre os padrões utilizados.
+   - [Guia do Usuário](README-tutorial.md) do ArchHypo.AI Plugin: material de referência que poderá ser consultado ao longo do experimento.
 
 ### B) Configuração
 
@@ -77,7 +77,7 @@ Durante o treinamento, os(as) participantes deverão realizar as seguintes ativi
 
 ### E) Tarefas do Experimento
 
-O objetivo principal do experimento é utilizar o plugin ArchHypo.AI para identificar incertezas arquiteturais presentes no e-mail e, a partir delas, elaborar hipóteses técnicas no Trello, acompanhadas de planos técnicos de validação.
+O objetivo principal do experimento é utilizar o plugin ArchHypo.AI para identificar incertezas arquiteturais presentes no e-mail abaixo e, a partir delas, elaborar hipóteses técnicas no Trello, acompanhadas de planos técnicos de validação.
 
 #### Passos:
 
