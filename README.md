@@ -30,11 +30,11 @@ Uma cópia assinada deste documento pela equipe de pesquisa pode ser fornecida m
 ### A) Pré-requisitos
 Para participar do experimento, recomenda-se:
 
-- Conhecimento básico sobre Trello e uso de Power-Ups.
-- Familiaridade com conceitos de arquitetura de software e requisitos não funcionais.
 - Conta ativa no Trello.
-- Conhecimento sobre o [Guia do Usuário](README-tutorial.md) do ArchHypo Trello Plugin.
-- Conhecimento sobre os [Padrões ArchHypo](README-padroes.md).
+- Familiaridade com conceitos de arquitetura de software e requisitos não funcionais.
+- Interesse em realizar leitura e aprendizado durante o experimento, com base nos seguintes materiais de apoio:
+   - Padrões ArchHypo: documento introdutório sobre os padrões utilizados. Recomenda-se a leitura introdutória disponível em: [Padrões ArchHypo](README-padroes.md).
+   - [Guia do Usuário](README-tutorial.md) do ArchHypo Trello Plugin: material de referência que poderá ser consultado ao longo do experimento.
 
 ### B) Configuração
 O experimento será realizado diretamente no Trello, utilizando o plugin ArchHypo.AI. 
