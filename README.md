@@ -37,13 +37,14 @@ Para participar do experimento, recomenda-se:
    - [Guia do Usuário](README-tutorial.md) do ArchHypo Trello Plugin: material de referência que poderá ser consultado ao longo do experimento.
 
 ### B) Configuração
+
 O experimento será realizado diretamente no Trello, utilizando o plugin ArchHypo.AI. 
 Não é necessário instalar software adicional.
 
 #### Ambiente
 - Navegador atualizado (Chrome, Firefox, Edge, etc.)
 - Acesso à internet
-- Conta no Trello com permissão para adicionar Power-Ups
+- Conta no Trello
 
 ### C) Contexto
 Decisões arquiteturais em projetos de software envolvem incertezas que impactam diretamente requisitos não funcionais. O ArchHypo.AI propõe uma abordagem assistida por LLMs para:
@@ -53,8 +54,12 @@ Decisões arquiteturais em projetos de software envolvem incertezas que impactam
 - Categorizar e visualizar métricas de impacto e incerteza
 - Este experimento avalia como o uso de LLMs pode apoiar a tomada de decisão arquitetural, promovendo rastreabilidade e organização diretamente em boards Trello.
 
-### D) Visão Geral do Experimento
-Você deverá realizar as seguintes etapas:
+### D) Treinamento – ArchHypo.AI
+
+Antes de iniciar sua participação no experimento, recomenda-se a realização de um treinamento introdutório sobre o uso da ferramenta ArchHypo AI. 
+Para isso, siga o passo a passo descrito no [Guia do Usuário](README-tutorial.md), que apresenta as funcionalidades do plugin e orientações práticas para sua utilização no Trello. 
+
+Durante o treinamento, os(as) participantes deverão realizar as seguintes atividades:
 
 1) Acesse o link correspondente ao grupo selecionado no seguinte endereço:
    - Grupo 1: https://trello.com/b/sEjDHKsg/archhypo-grupo-1
@@ -64,17 +69,21 @@ Você deverá realizar as seguintes etapas:
    - Grupo 5: https://trello.com/b/9hxIsJep/archhypo-grupo-5
    - Grupo 6: https://trello.com/b/ldgHNjDR/archhypo-grupo-6
    - Grupo 7: https://trello.com/b/82bNxSjT/archhypo-grupo-7
-2) Registrar uma Incerteza e observar a sugestão automática de hipótese e classificação.
-3) Adicionar Métricas usando labels para categorizar hipóteses e itens técnicos.
-4) Gerar Plano Técnico com base na hipótese registrada.
-5) Visualizar Métricas por meio dos gráficos disponíveis no plugin.
+2) Registrar uma incerteza e observar a sugestão automática de hipótese e sua respectiva classificação.
+3) Adicionar métricas utilizando labels para categorizar hipóteses e itens técnicos.
+4) Gerar um plano técnico com base na hipótese registrada.
+5) Classificar os itens do plano técnico utilizando os [Padrões ArchHypo](README-padroes.md).
+6) Visualizar métricas por meio dos gráficos disponíveis no plugin.
 
-### E) Exemplo de Uso 
+### E) Tarefas do Experimento
 
-Utilizar o plugin para identificar incertezas arquiteturais no email e criar hipóteses técnicas no Trello, com planos de validação.
+O objetivo principal do experimento é utilizar o plugin ArchHypo.AI para identificar incertezas arquiteturais presentes no e-mail e, a partir delas, elaborar hipóteses técnicas no Trello, acompanhadas de planos técnicos de validação.
 
 Passos:
-1) Leitura do Email
+
+1) Acesse o link correspondente ao grupo previamente designado, conforme listado na seção de treinamento.
+
+2) Leitura do Email
    O participante deve ler o email abaixo e identificar as incertezas.
 
 > **De:** equipe@sistema.com.br
