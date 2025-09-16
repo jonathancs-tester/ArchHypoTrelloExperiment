@@ -129,22 +129,22 @@ Procure por trechos do e-mail que indiquem falta de clareza, decisões pendentes
    
 Nesta etapa, o(a) participante deverá utilizar o ArchHypo.AI no Trello para transformar as incertezas identificadas em hipóteses técnicas. Cada hipótese será registrada como um cartão no Trello, preenchendo os seguintes campos:
 
-- **Título da Hipótese:** uma frase curta que resume a hipótese _(exemplo: H1: Processamento de 1GB/min com 1 servidor)_.
+- **Título da Hipótese:** uma frase curta que resume a hipótese seguindo o padrão: _(H1: Título da Hipótese)_.
 - **Descrição da Incerteza:** explique brevemente o que está incerto ou desconhecido.
-- **Requisito Não Funcional:** selecione o tipo de requisito relacionado à hipótese _(ex: Desempenho, Segurança, Confiabilidade, Flexibilidade, Usabilidade ou Produtividade)_.
-- **Nível de Incerteza:** indique o grau de incerteza _(ex: Muito Baixo, Baixo, Médio, Alto ou Muito Alto)_.
-- **Nível de Impacto:** indique o impacto potencial da hipótese no sistema _(ex: Muito Baixo, Baixo, Médio, Alto ou Muito Alto)_.
+- **Requisito Não Funcional:** selecione o tipo de requisito relacionado à hipótese _(Desempenho, Segurança, Confiabilidade, Flexibilidade, Usabilidade ou Produtividade)_.
+- **Nível de Incerteza:** indique o grau de incerteza _(Muito Baixo, Baixo, Médio, Alto ou Muito Alto)_.
+- **Nível de Impacto:** indique o impacto potencial da hipótese no sistema _(Muito Baixo, Baixo, Médio, Alto ou Muito Alto)_.
 
   
 💡 Resultado Esperado
 
 Ao final desta etapa, o quadro do Trello deve conter três cartões de hipóteses, preenchidos conforme os campos acima:
 
-_H1: [Título e informações da primeira hipótese]_
+_H1: [Título da primeira hipótese]_
 
-_H2: [Título e informações da segunda hipótese]_
+_H2: [Título da segunda hipótese]_
 
-_H3: [Título e informações da terceira hipótese]_
+_H3: [Título da terceira hipótese]_
 
 ---
 
@@ -152,7 +152,7 @@ _H3: [Título e informações da terceira hipótese]_
 
 Para cada hipótese registrada, o(a) participante deverá utilizar o ArchHypo.AI para criar itens de um Plano Técnico. Cada item deve conter os seguintes campos:
 
-- **Título do Item do Plano Técnico:** uma frase que descreve a ação técnica relacionada à hipótese _(ex: H1 – TP1: Analisar o esquema do banco de dados)_.
+- **Título do Item do Plano Técnico:** uma frase que descreve a ação técnica relacionada à hipótese seguindo o padrão: seguindo o padrão: _(H1 - TP1: Título do Item do Plano Técnico)_.
 - **Objetivo:** descrever o propósito da ação técnica.
 - **Descrição:** descrever detalhes sobre o que será feito.
 - **Padrão ArchHypo:** classificar o item utilizando os [Padrões ArchHypo](README-padroes.md).
@@ -162,27 +162,27 @@ Para cada hipótese registrada, o(a) participante deverá utilizar o ArchHypo.AI
 
 Ao final desta etapa, o quadro do Trello deve conter pelo menos três cartões de Itens do Plano Técnico para cada hipótese:
 
-_H1 – TP1: [Item relacionado à hipótese H1]_
+_H1 – TP1: [Item 1 relacionado à hipótese H1]_
 
-_H1 – TP2: [Item relacionado à hipótese H1]_
+_H1 – TP2: [Item 2 relacionado à hipótese H1]_
 
-_H1 – TP3: [Item relacionado à hipótese H1]_
-
----
-
-_H2 – TP1: [Item relacionado à hipótese H2]_
-
-_H2 – TP2: [Item relacionado à hipótese H2]_
-
-_H2 – TP3: [Item relacionado à hipótese H2]_
+_H1 – TP3: [Item 3 relacionado à hipótese H1]_
 
 ---
 
-_H3 – TP1: [Item relacionado à hipótese H3]_
+_H2 – TP1: [Item 1 relacionado à hipótese H2]_
 
-_H3 – TP2: [Item relacionado à hipótese H3]_
+_H2 – TP2: [Item 2 relacionado à hipótese H2]_
 
-_H3 – TP3: [Item relacionado à hipótese H3]_
+_H2 – TP3: [Item 3 relacionado à hipótese H2]_
+
+---
+
+_H3 – TP1: [Item 1 relacionado à hipótese H3]_
+
+_H3 – TP2: [Item 2 relacionado à hipótese H3]_
+
+_H3 – TP3: [Item 3 relacionado à hipótese H3]_
 
 Obs.: Todos os cartões devem ser categorizados com labels/métricas, conforme orientações do [Treinamento - ArchHypo.AI](#d-treinamento--archhypoai).
 
