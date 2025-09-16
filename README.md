@@ -56,12 +56,14 @@ Decisões arquiteturais em projetos de software envolvem incertezas que impactam
 ### D) Visão Geral do Experimento
 Você deverá realizar as seguintes etapas:
 
-1) Criar um Board Template com as colunas recomendadas, confura no item 1 do [Como usar (passo a passo)](#e--como-usar-passo-a-passo):
-   - INCERTEZA
-   - ITEM PLANO TÉCNICO
-   - A FAZER
-   - EM ANDAMENTO
-   - CONCLUÍDO
+1) Acesse o link correspondente ao grupo selecionado no seguinte endereço:
+   - Grupo 1: https://trello.com/b/sEjDHKsg/archhypo-grupo-1
+   - Grupo 2: https://trello.com/b/ERv4woXX/archhypo-grupo-2
+   - Grupo 3: https://trello.com/b/4Pml3c4v/archhypo-grupo-3
+   - Grupo 4: https://trello.com/b/AwkCCm1Q/archhypo-grupo-4
+   - Grupo 5: https://trello.com/b/9hxIsJep/archhypo-grupo-5
+   - Grupo 6: https://trello.com/b/ldgHNjDR/archhypo-grupo-6
+   - Grupo 7: https://trello.com/b/82bNxSjT/archhypo-grupo-7
 2) Registrar uma Incerteza e observar a sugestão automática de hipótese e classificação.
 3) Adicionar Métricas usando labels para categorizar hipóteses e itens técnicos.
 4) Gerar Plano Técnico com base na hipótese registrada.
