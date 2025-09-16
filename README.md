@@ -123,6 +123,8 @@ Procure por trechos do e-mail que indiquem falta de clareza, decisões pendentes
 > 
 > Gerente de Produto
 
+---
+
 **3) Criação de Hipóteses no Trello com o ArchHypo.AI:**
    
 Nesta etapa, o(a) participante deverá utilizar o ArchHypo.AI no Trello para transformar as incertezas identificadas em hipóteses técnicas. Cada hipótese será registrada como um cartão no Trello, preenchendo os seguintes campos:
@@ -144,6 +146,7 @@ _H2: [Título e informações da segunda hipótese]_
 
 _H3: [Título e informações da terceira hipótese]_
 
+---
 
 **4) Gerar Plano Técnico:**
 
@@ -160,18 +163,30 @@ Para cada hipótese registrada, o(a) participante deverá utilizar o ArchHypo.AI
 Ao final desta etapa, o quadro do Trello deve conter pelo menos três cartões de Itens do Plano Técnico para cada hipótese:
 
 _H1 – TP1: [Item relacionado à hipótese H1]_
+
 _H1 – TP2: [Item relacionado à hipótese H1]_
+
 _H1 – TP3: [Item relacionado à hipótese H1]_
 
+---
+
 _H2 – TP1: [Item relacionado à hipótese H2]_
+
 _H2 – TP2: [Item relacionado à hipótese H2]_
+
 _H2 – TP3: [Item relacionado à hipótese H2]_
 
+---
+
 _H3 – TP1: [Item relacionado à hipótese H3]_
+
 _H3 – TP2: [Item relacionado à hipótese H3]_
+
 _H3 – TP3: [Item relacionado à hipótese H3]_
 
 Obs.: Todos os cartões devem ser categorizados com labels/métricas, conforme orientações do [Treinamento - ArchHypo.AI](#d-treinamento--archhypoai).
+
+---
 
 ### F) Finalização
 
@@ -194,8 +209,9 @@ Muito obrigado pela sua colaboração!
 
 ArchHypo.AI Plugin
 
-Equipe de Pesquisa e Desenvolvimento
+Desenvolvido pela Equipe de Pesquisa e Desenvolvimento  
 
-[https://github.com/jonathancs-tester/ArchHypo-Trello-Plugin](https://github.com/jonathancs-tester/ArchHypo-Trello-Plugin)
+[🔗 Repositório GitHub](https://github.com/jonathancs-tester/ArchHypo-Trello-Plugin)
+
 
 
