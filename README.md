@@ -81,9 +81,9 @@ O objetivo principal do experimento é utilizar o plugin ArchHypo.AI para identi
 
 #### Passos:
 
-1) Acesse o link correspondente ao grupo previamente designado, conforme listado na seção de [Treinamento - ArchHypo.AI](#d-treinamento--archhypoai).
+**1) Acesse o link correspondente ao grupo previamente designado, conforme listado na seção de [Treinamento - ArchHypo.AI](#d-treinamento--archhypoai).**
 
-2) Identifique as Incertezas
+**2) Identifique as Incertezas:**
 
 Neste passo consiste na leitura atenta do e-mail fornecido. A partir dessa leitura, o(a) participante deverá identificar **três incertezas** arquiteturais presentes no conteúdo.
 
@@ -123,7 +123,7 @@ Procure por trechos do e-mail que indiquem falta de clareza, decisões pendentes
 > 
 > Gerente de Produto
 
-3) Criação de Hipóteses no Trello com o Plugin ArchHypo
+**3) Criação de Hipóteses no Trello com o ArchHypo.AI:**
    
 Nesta etapa, o(a) participante deverá utilizar o ArchHypo.AI no Trello para transformar as incertezas identificadas em hipóteses técnicas. Cada hipótese será registrada como um cartão no Trello, preenchendo os seguintes campos:
 
@@ -138,14 +138,14 @@ Nesta etapa, o(a) participante deverá utilizar o ArchHypo.AI no Trello para tra
 
 Ao final desta etapa, o quadro do Trello deve conter três cartões de hipóteses, preenchidos conforme os campos acima:
 
-H1: [Título e informações da primeira hipótese]
+_H1: [Título e informações da primeira hipótese]_
 
-H2: [Título e informações da segunda hipótese]
+_H2: [Título e informações da segunda hipótese]_
 
-H3: [Título e informações da terceira hipótese]
+_H3: [Título e informações da terceira hipótese]_
 
 
-4) Gerar Plano Técnico
+**4) Gerar Plano Técnico:**
 
 Para cada hipótese registrada, o(a) participante deverá utilizar o ArchHypo.AI para criar itens de um Plano Técnico. Cada item deve conter os seguintes campos:
 
@@ -159,17 +159,17 @@ Para cada hipótese registrada, o(a) participante deverá utilizar o ArchHypo.AI
 
 Ao final desta etapa, o quadro do Trello deve conter pelo menos três cartões de Itens do Plano Técnico para cada hipótese:
 
-H1 – TP1: [Item relacionado à hipótese H1]
-H1 – TP2: [Item relacionado à hipótese H1]
-H1 – TP3: [Item relacionado à hipótese H1]
+_H1 – TP1: [Item relacionado à hipótese H1]_
+_H1 – TP2: [Item relacionado à hipótese H1]_
+_H1 – TP3: [Item relacionado à hipótese H1]_
 
-H2 – TP1: [Item relacionado à hipótese H2]
-H2 – TP2: [Item relacionado à hipótese H2]
-H2 – TP3: [Item relacionado à hipótese H2]
+_H2 – TP1: [Item relacionado à hipótese H2]_
+_H2 – TP2: [Item relacionado à hipótese H2]_
+_H2 – TP3: [Item relacionado à hipótese H2]_
 
-H3 – TP1: [Item relacionado à hipótese H3]
-H3 – TP2: [Item relacionado à hipótese H3]
-H3 – TP3: [Item relacionado à hipótese H3]
+_H3 – TP1: [Item relacionado à hipótese H3]_
+_H3 – TP2: [Item relacionado à hipótese H3]_
+_H3 – TP3: [Item relacionado à hipótese H3]_
 
 Obs.: Todos os cartões devem ser categorizados com labels/métricas, conforme orientações do [Treinamento - ArchHypo.AI](#d-treinamento--archhypoai).
 
