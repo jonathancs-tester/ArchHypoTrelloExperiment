@@ -62,13 +62,13 @@ Para isso, siga o passo a passo descrito no [Guia do Usuário](README-tutorial.m
 Durante o treinamento, os(as) participantes deverão realizar as seguintes atividades:
 
 1) Acesse o link correspondente ao grupo selecionado no seguinte endereço:
-   - Grupo 1: https://trello.com/b/sEjDHKsg/archhypo-grupo-1
-   - Grupo 2: https://trello.com/b/ERv4woXX/archhypo-grupo-2
-   - Grupo 3: https://trello.com/b/4Pml3c4v/archhypo-grupo-3
-   - Grupo 4: https://trello.com/b/AwkCCm1Q/archhypo-grupo-4
-   - Grupo 5: https://trello.com/b/9hxIsJep/archhypo-grupo-5
-   - Grupo 6: https://trello.com/b/ldgHNjDR/archhypo-grupo-6
-   - Grupo 7: https://trello.com/b/82bNxSjT/archhypo-grupo-7
+   - Grupo 1: [link](https://trello.com/invite/b/67b4d81b5e160805c55758c3/ATTIcaadc835bfb06f30327e1e689cec68b715E13884/archhypo-grupo-1)
+   - Grupo 2: [link](https://trello.com/invite/b/68c999e1bd3fe5c66bc7be82/ATTIea89bda92daf42ac34e59296370cb5948CCB9288/archhypo-grupo-2)
+   - Grupo 3: [link](https://trello.com/invite/b/68c99a04462abb161527efdc/ATTIadcb951f956220847e65e9972be53532688E3891/archhypo-grupo-3)
+   - Grupo 4: [link](https://trello.com/invite/b/68c99a8e4e96fed508bc77c5/ATTI0f1ef0bb3868657db427985b8612e6e6C6C03FEF/archhypo-grupo-4)
+   - Grupo 5: [link](https://trello.com/invite/b/68c99bee84eb0b39de4b0f8d/ATTIc58ef59912983e51add409141afea3ea048A0979/archhypo-grupo-5)
+   - Grupo 6: [link](https://trello.com/invite/b/68c99c0a2bc674edebbc20e1/ATTI6200978eef8e42c6791366327a5534da07F981C5/archhypo-grupo-6)
+   - Grupo 7: [link](https://trello.com/invite/b/68c99c21565d54b44a86c1c2/ATTI0a58455c591273bfddeb3814757f2adc68424D5F/archhypo-grupo-7)
 2) Registrar uma incerteza e observar a sugestão automática de hipótese e sua respectiva classificação.
 3) Adicionar métricas utilizando labels para categorizar hipóteses e itens técnicos.
 4) Gerar um plano técnico com base na hipótese registrada.
