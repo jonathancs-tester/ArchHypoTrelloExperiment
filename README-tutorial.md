@@ -11,14 +11,30 @@
 
 ### 🚀 Como Usar (Passo a Passo)
 
-#### 🗂️ Criar um Board Template  
-Adicione as colunas obrigatórias necessárias (ex: INCERTEZA, ITEM PLANO TECNICO, A FAZER, EM ANDAMENTO CONCLUIDO) para utilizar a gestão de hipóteses e decisões arquiteturais .
+#### #### 🗂️ Criar um Board Template
 
-![Add Board Template](img/image-1.png)
+❗❗❗ **IMPORTANTE:** Os quadros compartilhados já foram previamente configurados com as colunas necessárias. Caso esteja criando um board do zero, siga as instruções abaixo. ❗❗❗
+
+Para utilizar o plugin ArchHypo.AI corretamente, é essencial que o quadro do Trello esteja estruturado com as colunas adequadas para o fluxo de trabalho de gestão de incertezas e decisões arquiteturais.
+
+1. Clique no ícone de **Board** na barra lateral do Trello, conforme mostrado na imagem abaixo:
+
+   ![Add Board Template](img/image-1.png)
+
+2. Crie as seguintes colunas no seu quadro:
+
+   - `INCERTEZA`
+   - `ITEM PLANO TÉCNICO`
+   - `A FAZER`
+   - `EM ANDAMENTO`
+   - `CONCLUÍDO`
+
+   Essas colunas organizam o processo desde a identificação de incertezas até a execução e acompanhamento das ações técnicas.
 
 ![Board Template](img/image.png)
 
-Lembrando que você pode criar outras colunas personalizadas.
+💡 *Dica:* Você pode adicionar colunas personalizadas conforme as necessidades específicas do seu projeto ou equipe.
+
 
 #### ❓ Criar uma Incerteza
 Clique em *"Criar uma Incerteza"* para iniciar o fluxo de criação da Incerteza.
