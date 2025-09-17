@@ -11,7 +11,7 @@
 
 ### 🚀 Como Usar (Passo a Passo)
 
-#### #### 🗂️ Criar um Board Template
+#### 🗂️ Criar um Board Template
 
 ❗❗❗ **IMPORTANTE:** Os quadros compartilhados já foram previamente configurados com as colunas necessárias. Caso esteja criando um board do zero, siga as instruções abaixo. ❗❗❗
 
@@ -158,28 +158,53 @@ Após a ação, os labels serão exibidos conforme o exemplo:
 ![Metricas Adicionado](img/image-11.png)
 
 #### 📋 Criar Plano Técnico  
-   - Abra o card da hipótese criada.  
-   - Clique em *"Plano Técnico"* → *"Gerar Plano Técnico"*.  
-   - Selecione os itens sugeridos para editar ou gerar padrões ArchHypo.  
-   - 💡 O LLM sugere informações + justificativas (editáveis).
+
+A partir de uma Hipótese previamente criada, o usuário pode gerar um Plano Técnico com o objetivo de reduzir o nível de incerteza associado à hipótese.
+
+**1) Acessar o Card da Hipótese:**
+
+O primeiro passo é acessar o card da hipótese desejada e clicar no botão indicado na imagem abaixo:
 
 ![Botao Power Up](img/image-9.png)
 
 ![Bottao Plano Tecnico](img/image-12.png)
 
+---
+
+**2) Gerar Itens do Plano Técnico:**
+
+Ao clicar em **Gerar**, o LLM cria automaticamente de **até 5 itens técnicos padronizados**, com base na hipótese selecionada:
+
 ![Gerar](img/image-13.png)
+
+---
+**3) Selecionar e Editar Itens:**
+
+Após os items serem gerados, o usuário pode selecionar os itens mais relevantes e editar seus conteúdos conforme necessário:
 
 ![Editar](img/image-14.png)
 
+**4) Classificação dos Padrões ArchHypo:**
+
+Finalizada a seleção, o LLM realiza a classificação automática dos itens com base nos Padrões ArchHypo, apresentando uma justificativa para cada escolha:
+
 ![Padrao](img/image-15.png)
+
+Caso o usuário deseje alterar o padrão sugerido, é possível selecionar outro entre os disponíveis na documentação: [Padrões ArchHypo](README-padroes.md) 
+
+**5) Criar Itens no Quadro:**
+
+Ao clicar em Criar, os itens selecionados são adicionados automaticamente à coluna ITEMS PLANO TÉCNICO, com a seguinte nomenclatura:
+
+- H1 → Hipótese 1
+- TPI1 → Tech Plan Item 1
 
 ![Plano Criar](img/image-16.png)
 
-   - Os itens são adicionados na coluna **ITEMS PLANO TÉCNICO**, com IDs no formato:  
-     - `H1` → Hipótese 1  
-     - `TPI1` → Tech Plan Item 1
 
-   ![Plano Board](img/image-17.png)
+![Plano Board](img/image-17.png)
+
+ ---
    
 #### 📊 **Visualizar Métricas** 
 
