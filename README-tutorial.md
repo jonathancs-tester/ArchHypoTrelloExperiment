@@ -41,6 +41,8 @@ Clique em *"Criar uma Incerteza"* para iniciar o fluxo de criação da Incerteza
 
 ![Nova Incerteza](img/image-2.png)
 
+---
+
 **1) Descreva a Incerteza:**
 
 DIgite a incerteza arquitetural identificada com maior detalhamento possivel
@@ -57,58 +59,101 @@ _"A principal incerteza reside em como garantir a eficácia e a colaboração fl
 
 ![Hipotese](img/image-4.png)
 
-O usuário pode editar a hipótese sugerida e o ArchHypo.AI Plugin solicitará uma justificativa para ser utilizada no aprendizado do LLM.
+⚠️**Atenção:** Ao retornar a uma etapa anterior, os valores sugeridos pelo LLM podem ser perdidos e precisarão ser reeditados.
+
+⚠️**Atenção:** O usuário pode editar qualquer informação sugerido pelo LLM porém o ArchHypo.AI Plugin solicitará uma justificativa para ser utilizada no aprendizado do LLM.
+
 
 ---
 
 **3) Requisito Não Funcional (NFR):**
 
-O sistema solicita que o usuário selecione ou justifique o requisito não funcional relacionado à hipótese (ex: desempenho, segurança, interoperabilidade).
+
+O sistema solicita que o usuário selecione ou justifique o **Requisito Não Funcional** relacionado à hipótese. Exemplos incluem:
+
+- Desempenho
+- Segurança
+- Confiabilidade
+- Flexibilidade
+- Usabilidade
+- Produtividade
+
 ![NFR](img/image-5.png)
+
+⚠️**Atenção:** Ao retornar a uma etapa anterior, os valores sugeridos pelo LLM podem ser perdidos e precisarão ser reeditados.
+
+⚠️**Atenção:** O usuário pode editar qualquer informação sugerido pelo LLM porém o ArchHypo.AI Plugin solicitará uma justificativa para ser utilizada no aprendizado do LLM.
+
 
 ---
 
 **4)Avaliação da Incerteza:**
 
-A incerteza é classificada em termos de nível (ex: Alto, Médio, Baixo), o que representa o grau de desconhecimento ou risco associado àquela questão.
+Nesta etapa, o usuário deve classificar o **nível de incerteza** associado à hipótese. Os níveis disponíveis são:
 
-![Incerteza](img/image-6.png)
+- Muito Alto
+- Alto  
+- Médio  
+- Baixo
+- Muito Baixo
+
+  ![Incerteza](img/image-6.png)
+
+Essa classificação representa o grau de desconhecimento ou risco técnico envolvido.
+
+⚠️**Atenção:** Ao retornar a uma etapa anterior, os valores sugeridos pelo LLM podem ser perdidos e precisarão ser reeditados.
+
+⚠️**Atenção:** O usuário pode editar qualquer informação sugerido pelo LLM porém o ArchHypo.AI Plugin solicitará uma justificativa para ser utilizada no aprendizado do LLM.
 
 ---
 
 **5)Avaliação do Impacto:**
 
-Após a sugestão da hipótese, o sistema solicita que o usuário avalie o impacto que essa hipótese pode ter na arquitetura do sistema.
+O sistema também solicita que o usuário avalie o **impacto potencial** da hipótese na arquitetura do sistema. Os níveis disponíveis são:
 
-![Impacto](img/image-7.png)
+- Muito Alto
+- Alto  
+- Médio  
+- Baixo
+- Muito Baixo
+  
+  ![Impacto](img/image-7.png)
+  
+O impacto deve ser avaliado com base em critérios como:
 
-O impacto refere-se às consequências técnicas caso a hipótese se confirme ou não.
-O usuário pode selecionar o nível de impacto (ex: Alto, Médio, Baixo), considerando fatores como:
- - Complexidade da implementação
- - Riscos para desempenho, segurança ou interoperabilidade
- - Dependência entre componentes
+- Complexidade de implementação  
+- Riscos para desempenho, segurança ou interoperabilidade  
+- Dependência entre componentes
+
+⚠️**Atenção:** Ao retornar a uma etapa anterior, os valores sugeridos pelo LLM podem ser perdidos e precisarão ser reeditados.
+
+⚠️**Atenção:** O usuário pode editar qualquer informação sugerido pelo LLM porém o ArchHypo.AI Plugin solicitará uma justificativa para ser utilizada no aprendizado do LLM.
 
 
 ---
 
-Ao finalizar esses passos os card é criado com sucesso conforme a imagem abaixo:
+Após preencher todos os campos, o plugin cria automaticamente um **card no Trello** com as informações da incerteza e da hipótese.
 
 ![Card Criado](img/image-8.png)
 
-**Navegação:**
-
-Botões "Anterior" e "Próximo" permitem navegar entre as etapas do fluxo. Porém o não mantem o valor sugerido pelo LLM caso volte a etapa
-
 ---
-  
+
 #### 🏷️ Add/Atualizar Métricas  
-Clique em *"Add/Atualizar Métricas"* para configurar os labels.
-  - Hipóteses → *Nível de Incerteza, Impacto e Requisito Não Funcional*  
-  - Itens do Plano Técnico → *Padrões ArchHypo*  
+
+Para adicionar ou atualizar as métricas nos cards do Trello, o usuário deve acessar o card de Hipótese ou o Item do Plano Técnico e utilizar o botão conforme ilustrado abaixo:
 
 ![Botao Power UP](img/image-9.png)
 
+Em seguida, clique em "Add/Atualizar Métricas" para incluir ou modificar os labels correspondentes:
+
 ![Add/Atualizar Métrica](img/image-10.png)
+
+As métricas adicionadas variam conforme o tipo de card:
+
+- Hipóteses → *Nível de Incerteza, Impacto e Requisito Não Funcional*
+- Itens do Plano Técnico → *Padrões ArchHypo*
+
+Após a ação, os labels serão exibidos conforme o exemplo:
 
 ![Metricas Adicionado](img/image-11.png)
 
@@ -138,10 +183,19 @@ Clique em *"Add/Atualizar Métricas"* para configurar os labels.
    
 #### 📊 **Visualizar Métricas** 
 
-Use *ArchHypo Métricas* para acompanhar evolução em gráficos e gerenciar as métricas e labels de categorização de Hipóteses e Itens de Plano Técnico.
+Utilize o recurso *ArchHypo Métricas* para acompanhar a quantidade de cards classificados conforme descrito na seção Adicionar ou Atualizar Métricas.
+
+Para acessar, clique no botão indicado na imagem abaixo:
 
 ![Botao Métricas](img/image-18.png)
 
+O painel apresenta diferentes tipos de gráficos, como:
+
+- Quantidade de hipóteses com Nível de Incerteza e Impacto
+- Quantidade de hipóteses com Requisitos Não Funcionais (NFR)
+- Quantidade de itens do plano técnico com o [Padrões ArchHypo](README-padroes.md)
+
+  
 ![Métricas](img/image-19.png)
 
 
