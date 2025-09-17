@@ -21,7 +21,9 @@ Para utilizar o plugin ArchHypo.AI corretamente, é essencial que o quadro do Tr
 
    ![Add Board Template](img/image-1.png)
 
-2. Crie as seguintes colunas no seu quadro:
+  ⚠️ Atenção: Caso as colunas já tenham sido adicionadas, o botão Criar Board Template não será exibido.
+
+3. Crie as seguintes colunas no seu quadro:
 
    - `INCERTEZA`
    - `ITEM PLANO TÉCNICO`
