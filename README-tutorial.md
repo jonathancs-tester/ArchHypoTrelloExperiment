@@ -103,6 +103,8 @@ Nesta etapa, o usuário deve classificar o **nível de incerteza** associado à 
 
 Essa classificação representa o grau de desconhecimento ou risco técnico envolvido.
 
+ℹ️ **Informação:** O LLM aproveita os cards previamente classificados para gerar recomendações mais precisas e contextualizadas.
+
 ⚠️**Atenção:** Ao retornar a uma etapa anterior, os valores sugeridos pelo LLM podem ser perdidos e precisarão ser reeditados.
 
 ⚠️**Atenção:** O usuário pode editar qualquer informação sugerido pelo LLM porém o ArchHypo.AI Plugin solicitará uma justificativa para ser utilizada no aprendizado do LLM.
@@ -111,7 +113,9 @@ Essa classificação representa o grau de desconhecimento ou risco técnico envo
 
 **5) Avaliação do Impacto:**
 
-O sistema também solicita que o usuário avalie o **impacto potencial** da hipótese na arquitetura do sistema. Os níveis disponíveis são:
+O sistema também solicita que o usuário avalie o **impacto potencial** da hipótese na arquitetura do sistema considerando o pior cenário plausível. 
+
+Os níveis disponíveis são:
 
 - Muito Alto
 - Alto  
@@ -121,11 +125,15 @@ O sistema também solicita que o usuário avalie o **impacto potencial** da hip�
   
   ![Impacto](img/image-7.png)
   
-O impacto deve ser avaliado com base em critérios como:
+**Como avaliar o impacto?**
 
-- Complexidade de implementação  
-- Riscos para desempenho, segurança ou interoperabilidade  
-- Dependência entre componentes
+A escolha do nível de impacto deve considerar os seguintes critérios:
+
+ - Complexidade de implementação: A hipótese exige mudanças significativas ou introduz tecnologias novas?
+ - Riscos para desempenho, segurança ou interoperabilidade: A hipótese pode comprometer aspectos críticos do sistema?
+ - Dependência entre componentes: A hipótese afeta múltiplos módulos ou exige alterações em partes interdependentes?
+
+ℹ️ **Informação:** O LLM aproveita os cards previamente classificados para gerar recomendações mais precisas e contextualizadas.
 
 ⚠️**Atenção:** Ao retornar a uma etapa anterior, os valores sugeridos pelo LLM podem ser perdidos e precisarão ser reeditados.
 
@@ -179,12 +187,16 @@ Ao clicar em **Gerar**, o LLM cria automaticamente de **até 5 itens técnicos p
 
 ![Gerar](img/image-13.png)
 
+Após selecionar os itens, o usuário pode clicar em **Próximo** para iniciar a classificação dos padrões ou em **Editar** para modificar as informações previamente inseridas.
+
 ---
 **3) Selecionar e Editar Itens:**
 
 Após os items serem gerados, o usuário pode selecionar os itens mais relevantes e editar seus conteúdos conforme necessário:
 
 ![Editar](img/image-14.png)
+
+Após selecionar e editar os itens, o usuário pode clicar em **Próximo** para iniciar a classificação dos padrões.
 
 **4) Classificação dos Padrões ArchHypo:**
 
