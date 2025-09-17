@@ -57,7 +57,7 @@ DIgite a incerteza arquitetural identificada com maior detalhamento possivel
 
 O modelo de linguagem (LLM) sugere automaticamente uma hipótese técnica relacionada à incerteza descrita e a justificativa.
 Exemplo de hipótese sugerida:
-_"A principal incerteza reside em como garantir a eficácia e a colaboração fluída entre os Agentes LLM..."_
+_"Queremos adicionar LLMs ao nosso produto para melhorar a capacidade de geração de texto..."_
 
 ![Hipotese](img/image-4.png)
 
