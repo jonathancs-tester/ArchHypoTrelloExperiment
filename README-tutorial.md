@@ -51,7 +51,7 @@ DIgite a incerteza arquitetural identificada com maior detalhamento possivel
 
 ---
 
-**2)Hipótese:**
+**2) Hipótese:**
 
 O modelo de linguagem (LLM) sugere automaticamente uma hipótese técnica relacionada à incerteza descrita e a justificativa.
 Exemplo de hipótese sugerida:
@@ -87,7 +87,7 @@ O sistema solicita que o usuário selecione ou justifique o **Requisito Não Fun
 
 ---
 
-**4)Avaliação da Incerteza:**
+**4) Avaliação da Incerteza:**
 
 Nesta etapa, o usuário deve classificar o **nível de incerteza** associado à hipótese. Os níveis disponíveis são:
 
@@ -107,7 +107,7 @@ Essa classificação representa o grau de desconhecimento ou risco técnico envo
 
 ---
 
-**5)Avaliação do Impacto:**
+**5) Avaliação do Impacto:**
 
 O sistema também solicita que o usuário avalie o **impacto potencial** da hipótese na arquitetura do sistema. Os níveis disponíveis são:
 
