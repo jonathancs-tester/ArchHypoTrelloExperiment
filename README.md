@@ -59,7 +59,7 @@ Decisões arquiteturais em projetos de software envolvem incertezas que impactam
 Antes de iniciar sua participação no experimento, recomenda-se a realização de um treinamento introdutório sobre o uso da ferramenta ArchHypo AI. 
 Para isso, siga o passo a passo descrito no [Guia do Usuário](README-tutorial.md), que apresenta as funcionalidades do plugin e orientações práticas para sua utilização no Trello. 
 
-Durante o treinamento, os(as) participantes deverão realizar as seguintes atividades:
+Durante o treinamento, os participantes deverão realizar as seguintes atividades:
 
 1) Acesse o link correspondente ao grupo selecionado no seguinte endereço:
    - Grupo 1: [link](https://trello.com/invite/b/67b4d81b5e160805c55758c3/ATTIcaadc835bfb06f30327e1e689cec68b715E13884/archhypo-grupo-1)
@@ -69,8 +69,8 @@ Durante o treinamento, os(as) participantes deverão realizar as seguintes ativi
    - Grupo 5: [link](https://trello.com/invite/b/68c99bee84eb0b39de4b0f8d/ATTIc58ef59912983e51add409141afea3ea048A0979/archhypo-grupo-5)
    - Grupo 6: [link](https://trello.com/invite/b/68c99c0a2bc674edebbc20e1/ATTI6200978eef8e42c6791366327a5534da07F981C5/archhypo-grupo-6)
    - Grupo 7: [link](https://trello.com/invite/b/68c99c21565d54b44a86c1c2/ATTI0a58455c591273bfddeb3814757f2adc68424D5F/archhypo-grupo-7)
-2) Registrar uma incerteza e observar a sugestão automática de hipótese e sua respectiva classificação.
-3) Adicionar métricas utilizando labels para categorizar hipóteses e itens técnicos.
+2) Registrar uma incerteza e observar a sugestão automática de hipótese, bem como sua respectiva classificação.
+3) Adicionar métricas, utilizando labels, para categorizar hipóteses e itens técnicos.
 4) Gerar um plano técnico com base na hipótese registrada.
 5) Classificar os itens do plano técnico utilizando os [Padrões ArchHypo](README-padroes.md).
 6) Visualizar métricas por meio dos gráficos disponíveis no plugin.
@@ -152,7 +152,7 @@ _H3: [Título da terceira hipótese]_
 
 Para cada hipótese registrada, o(a) participante deverá utilizar o ArchHypo.AI para criar itens de um Plano Técnico. Cada item deve conter os seguintes campos:
 
-- **Título do Item do Plano Técnico:** uma frase que descreve a ação técnica relacionada à hipótese seguindo o padrão: seguindo o padrão: _(H1 - TP1: Título do Item do Plano Técnico)_.
+- **Título do Item do Plano Técnico:** uma frase que descreve a ação técnica relacionada à hipótese seguindo o padrão: _(H1 - TP1: Título do Item do Plano Técnico)_.
 - **Objetivo:** descrever o propósito da ação técnica.
 - **Descrição:** descrever detalhes sobre o que será feito.
 - **Padrão ArchHypo:** classificar o item utilizando os [Padrões ArchHypo](README-padroes.md).
@@ -192,7 +192,7 @@ Obs.: Todos os cartões devem ser categorizados com labels/métricas, conforme o
 
 Agradecemos sua participação no teste do ArchHypo Plugin para Trello!
 
-Este experimento tem como propósito:
+Este experimento tem como propósitos:
 
  - Avaliar a usabilidade e eficácia do ArchHypo Plugin
  - Identificar e desativar recursos não essenciais
