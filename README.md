@@ -61,7 +61,7 @@ Para isso, siga o passo a passo descrito no [Guia do Usuário](README-tutorial.m
 
 Durante o treinamento, os participantes deverão realizar as seguintes atividades:
 
-1) Acesse o link correspondente ao grupo selecionado no seguinte endereço:
+1) **Acesse o link correspondente ao grupo designado**, conforme listado abaixo:
    - Grupo 1: [link](https://trello.com/invite/b/67b4d81b5e160805c55758c3/ATTIcaadc835bfb06f30327e1e689cec68b715E13884/archhypo-grupo-1)
    - Grupo 2: [link](https://trello.com/invite/b/68c999e1bd3fe5c66bc7be82/ATTIea89bda92daf42ac34e59296370cb5948CCB9288/archhypo-grupo-2)
    - Grupo 3: [link](https://trello.com/invite/b/68c99a04462abb161527efdc/ATTIadcb951f956220847e65e9972be53532688E3891/archhypo-grupo-3)
@@ -69,11 +69,16 @@ Durante o treinamento, os participantes deverão realizar as seguintes atividade
    - Grupo 5: [link](https://trello.com/invite/b/68c99bee84eb0b39de4b0f8d/ATTIc58ef59912983e51add409141afea3ea048A0979/archhypo-grupo-5)
    - Grupo 6: [link](https://trello.com/invite/b/68c99c0a2bc674edebbc20e1/ATTI6200978eef8e42c6791366327a5534da07F981C5/archhypo-grupo-6)
    - Grupo 7: [link](https://trello.com/invite/b/68c99c21565d54b44a86c1c2/ATTI0a58455c591273bfddeb3814757f2adc68424D5F/archhypo-grupo-7)
-2) Registrar uma incerteza e observar a sugestão automática de hipótese, bem como sua respectiva classificação.
-3) Adicionar métricas, utilizando labels, para categorizar hipóteses e itens técnicos.
-4) Gerar um plano técnico com base na hipótese registrada.
-5) Classificar os itens do plano técnico utilizando os [Padrões ArchHypo](README-padroes.md).
-6) Visualizar métricas por meio dos gráficos disponíveis no plugin.
+2) Registre uma incerteza no sistema e observe:
+
+    - **A hipótese gerada automaticamente** pelo modelo de linguagem (LLM)
+    - As **sugestões automáticas de classificação** da hipótese gerada.
+    - **As justficativas fornecidas** para cada classificação atribuída à hipótese.
+   
+3) **Adicione métricas às hipóteses e itens técnicos**, utilizando _labels_ para categorização adequada.
+4) **Gere um plano técnico** com base na hipótese registrada.
+5) **Classifique os itens do plano técnico** conforme os [Padrões ArchHypo](README-padroes.md).
+6) **Visualize as métricas** por meio dos gráficos disponíveis no plugin.
 
 ### E) Tarefas do Experimento
 
