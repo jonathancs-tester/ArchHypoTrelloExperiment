@@ -17,11 +17,11 @@
 
 Para utilizar o plugin ArchHypo.AI corretamente, é essencial que o quadro do Trello esteja estruturado com as colunas adequadas para o fluxo de trabalho de gestão de incertezas e decisões arquiteturais.
 
+⚠️ Atenção: Caso as colunas já estejam previamente definidas, o botão Criar Board Template não será exibido. Nessa situação, a execução deste procedimento não é necessária.
+
 1. Clique no ícone de **Board** na barra lateral do Trello, conforme mostrado na imagem abaixo:
 
    ![Add Board Template](img/image-1.png)
-
-  ⚠️ Atenção: Caso as colunas já tenham sido adicionadas, o botão Criar Board Template não será exibido.
 
 3. Crie as seguintes colunas no seu quadro:
 
