@@ -1,5 +1,5 @@
 # 📑 Sumário
-- [📖 Guia do Usuário](#-user-guide)
+- [📖 Guia do Usuário](#-guia-do-usuário)
   - [Selecionar Idioma](#-selecionar-idioma)
   - [Como Usar (Passo a Passo)](#-como-usar-passo-a-passo)
     - [Criar um Board Template](#%EF%B8%8F-criar-um-board-template)
@@ -17,6 +17,7 @@ Essa funcionalidade permite que os usuários escolham entre Português (PT) e In
  - Procure pelo botão ou menu suspenso com a opção de idiomas no topo ou em uma seção destacada do board.
  - Clique em PT para português ou EN para inglês.
 
+ ![Seleciona idioma](img/image-22.png)
 
 Após a seleção, os títulos, descrições e etiquetas do board serão atualizados automaticamente para o idioma escolhido.
 
