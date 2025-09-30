@@ -1,4 +1,4 @@
-# 📑 Sumário
+# 📑 Summary
 - [📖 User Guide](#-user-guide)
   - [Como Usar (Passo a Passo)](#-como-usar-passo-a-passo)
     - [Criar um Board Template](#%EF%B8%8F-criar-um-board-template)

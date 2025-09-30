@@ -150,4 +150,4 @@ ArchHypo.AI Plugin
 
 Equipe de Pesquisa e Desenvolvimento
 
-[https://github.com/jonathancs-tester/ArchHypo-Trello-Plugin](https://github.com/jonathancs-tester/ArchHypo-Trello-Plugin)
+[🔗 GitHub Repository][https://github.com/jonathancs-tester/ArchHypo-Trello-Plugin](https://github.com/jonathancs-tester/ArchHypo-Trello-Plugin)
