@@ -1,5 +1,5 @@
 # 📑 Sumário
-- [📖 User Guide](#-user-guide)
+- [📖 Guia do Usuário](#-user-guide)
   - [Selecionar Idioma](#-selecionar-idioma)
   - [Como Usar (Passo a Passo)](#-como-usar-passo-a-passo)
     - [Criar um Board Template](#%EF%B8%8F-criar-um-board-template)
@@ -8,9 +8,9 @@
     - [Criar Plano Técnico](#-criar-plano-técnico)
     - [Visualizar Métricass](#-visualizar-métricas)
   
-## 📖 User Guide
+## 📖 Guia do Usuário
 
-### 🌐 Seleciona Idioma
+### 🌐 Selecionar Idioma
 
 Essa funcionalidade permite que os usuários escolham entre Português (PT) e Inglês (EN) para visualizar as informações do board no idioma de sua preferência.
 
