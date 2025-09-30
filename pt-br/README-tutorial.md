@@ -15,7 +15,7 @@
 Essa funcionalidade permite que os usuários escolham entre Português (PT) e Inglês (EN) para visualizar as informações do board no idioma de sua preferência.
 
  - Procure pelo botão ou menu suspenso com a opção de idiomas no topo ou em uma seção destacada do board.
- - Clique em PT para português ou EN para inglês.
+ - Clique em **Português** para português ou **English** para inglês.
 
  ![Seleciona idioma](img/image-22.png)
 
