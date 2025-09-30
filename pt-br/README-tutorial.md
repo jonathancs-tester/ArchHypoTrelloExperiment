@@ -10,7 +10,15 @@
   
 ## 📖 User Guide
 
-### 🚀 Seleciona Idioma
+### 🌐 Seleciona Idioma
+
+Essa funcionalidade permite que os usuários escolham entre Português (PT) e Inglês (EN) para visualizar as informações do board no idioma de sua preferência.
+
+ - Procure pelo botão ou menu suspenso com a opção de idiomas no topo ou em uma seção destacada do board.
+ - Clique em PT para português ou EN para inglês.
+
+
+Após a seleção, os títulos, descrições e etiquetas do board serão atualizados automaticamente para o idioma escolhido.
 
 ### 🚀 Como Usar (Passo a Passo)
 
