@@ -1,249 +1,258 @@
 # 📑 Summary
 - [📖 User Guide](#-user-guide)
-  - [Como Usar (Passo a Passo)](#-como-usar-passo-a-passo)
-    - [Criar um Board Template](#%EF%B8%8F-criar-um-board-template)
-    - [Criar uma Incerteza](#-criar-uma-incerteza)
-    - [Add/Atualizar Métricas](#%EF%B8%8F-addatualizar-métricas)
-    - [Criar Plano Técnico](#-criar-plano-técnico)
-    - [Visualizar Métricass](#-visualizar-métricas)
+  - [Select Language](#-select-language)
+  - [How to Use (Step-by-Step)](#-how-to-use-step-by-step)
+    - [Create a Board Template](#%EF%B8%8F-create-a-board-template)
+    - [Create an Uncertainty](#-create-an-uncertainty)
+    - [Add/Update Metrics](#%EF%B8%8F-addupdate-metrics)
+    - [Create Technical Plan](#-create-technical-plan)
+    - [View Metrics](#-view-metrics)
   
 ## 📖 User Guide
 
-### 🚀 Como Usar (Passo a Passo)
+### 🌐 Select Language
 
-#### 🗂️ Criar um Board Template
+This feature allows users to choose between Portuguese (PT) and English (EN) to view the board information in their preferred language.
 
-❗❗❗ **IMPORTANTE:** Os quadros compartilhados já foram previamente configurados com as colunas necessárias. Caso esteja criando um board do zero, siga as instruções abaixo. ❗❗❗
+ - Look for the button or dropdown menu with the language option at the top or in a highlighted section of the board.
+ - Click **Português** for Portuguese or **English** for English.
 
-Para utilizar o plugin ArchHypo.AI corretamente, é essencial que o quadro do Trello esteja estruturado com as colunas adequadas para o fluxo de trabalho de gestão de incertezas e decisões arquiteturais.
+ ![Select language](img/image-22.png)
 
-⚠️ Atenção: Caso as colunas já estejam previamente definidas, o botão Criar Board Template não será exibido. Nessa situação, a execução deste procedimento não é necessária.
+After selection, the board's titles, descriptions, and labels will be automatically updated to the chosen language.
 
-1. Clique no ícone de **Board** na barra lateral do Trello, conforme mostrado na imagem abaixo:
+### 🚀 How to Use (Step-by-Step)
+
+#### 🗂️ Create a Board Template
+
+❗❗❗ **IMPORTANT:** Shared boards have already been pre-configured with the necessary columns. If you are creating a board from scratch, follow the instructions below. ❗❗❗
+
+To use the ArchHypo.AI plugin correctly, it is essential that the Trello board is structured with the appropriate columns for the uncertainty and architectural decision management workflow.
+
+⚠️ Warning: If the columns are already defined, the `Create Board Template` button will not be displayed. In this situation, this procedure is not necessary.
+
+1. Click the **Board** icon on the Trello sidebar, as shown in the image below:
 
    ![Add Board Template](img/image-1.png)
 
-3. Crie as seguintes colunas no seu quadro:
+3. Create the following columns on your board:
 
-   - `INCERTEZA`
-   - `ITEM PLANO TÉCNICO`
-   - `A FAZER`
-   - `EM ANDAMENTO`
-   - `CONCLUÍDO`
+   - `UNCERTAINTY`
+   - `TECHNICAL PLAN ITEM`
+   - `TO DO`
+   - `IN PROGRESS`
+   - `DONE`
 
-   Essas colunas organizam o processo desde a identificação de incertezas até a execução e acompanhamento das ações técnicas.
+   These columns organize the process from identifying uncertainties to executing and monitoring technical actions.
 
 ![Board Template](img/image.png)
 
-💡 *Dica:* Você pode adicionar colunas personalizadas conforme as necessidades específicas do seu projeto ou equipe.
+💡 *Tip:* You can add custom columns according to the specific needs of your project or team.
 
 
-#### ❓ Criar uma Incerteza
-Clique em *"Criar uma Incerteza"* para iniciar o fluxo de criação da Incerteza.
+#### ❓ Create an Uncertainty
+Click on *"Create an Uncertainty"* to start the Uncertainty creation workflow.
 
-![Nova Incerteza](img/image-2.png)
-
----
-
-**1) Descreva a Incerteza:**
-
-DIgite a incerteza arquitetural identificada com maior detalhamento possivel
-
-![Nova Inceteza 2](img/image-3.png)
+![New Uncertainty](img/image-2.png)
 
 ---
 
-**2) Hipótese:**
+**1) Describe the Uncertainty:**
 
-O modelo de linguagem (LLM) sugere automaticamente uma hipótese técnica relacionada à incerteza descrita e a justificativa.
-Exemplo de hipótese sugerida:
-_"Queremos adicionar LLMs ao nosso produto para melhorar a capacidade de geração de texto..."_
+Enter the identified architectural uncertainty with as much detail as possible.
 
-![Hipotese](img/image-4.png)
+![New Uncertainty 2](img/image-3.png)
 
-⚠️**Atenção:** Ao retornar a uma etapa anterior, os valores sugeridos pelo LLM podem ser perdidos e precisarão ser reeditados.
+---
 
-⚠️**Atenção:** O usuário pode editar qualquer informação sugerido pelo LLM porém o ArchHypo.AI Plugin solicitará uma justificativa para ser utilizada no aprendizado do LLM.
+**2) Hypothesis:**
+
+The language model (LLM) automatically suggests a technical hypothesis related to the described uncertainty and its justification.
+Example of a suggested hypothesis:
+_"We want to add LLMs to our product to improve text generation capabilities..."_
+
+![Hypothesis](img/image-4.png)
+
+⚠️**Warning:** When returning to a previous step, the values suggested by the LLM may be lost and will need to be re-edited.
+
+⚠️**Warning:** The user can edit any information suggested by the LLM, but the ArchHypo.AI Plugin will request a justification to be used for LLM training.
 
 
 ---
 
-**3) Requisito Não Funcional (NFR):**
+**3) Non-Functional Requirement (NFR):**
 
 
-O sistema solicita que o usuário selecione ou justifique o **Requisito Não Funcional** relacionado à hipótese. Exemplos incluem:
+The system prompts the user to select or justify the **Non-Functional Requirement** related to the hypothesis. Examples include:
 
-- Desempenho
-- Segurança
-- Confiabilidade
-- Flexibilidade
-- Usabilidade
-- Produtividade
+- Performance
+- Security
+- Reliability
+- Flexibility
+- Usability
+- Productivity
 
 ![NFR](img/image-5.png)
 
-⚠️**Atenção:** Ao retornar a uma etapa anterior, os valores sugeridos pelo LLM podem ser perdidos e precisarão ser reeditados.
+⚠️**Warning:** When returning to a previous step, the values suggested by the LLM may be lost and will need to be re-edited.
 
-⚠️**Atenção:** O usuário pode editar qualquer informação sugerido pelo LLM porém o ArchHypo.AI Plugin solicitará uma justificativa para ser utilizada no aprendizado do LLM.
+⚠️**Warning:** The user can edit any information suggested by the LLM, but the ArchHypo.AI Plugin will request a justification to be used for LLM training.
 
-
----
-
-**4) Avaliação da Incerteza:**
-
-Nesta etapa, o usuário deve classificar o **nível de incerteza** associado à hipótese. Os níveis disponíveis são:
-
-- Muito Alto
-- Alto  
-- Médio  
-- Baixo
-- Muito Baixo
-
-  ![Incerteza](img/image-6.png)
-
-Essa classificação representa o grau de desconhecimento ou risco técnico envolvido.
-
-ℹ️ **Informação:** O LLM aproveita os cards previamente classificados para gerar recomendações mais precisas e contextualizadas.
-
-⚠️**Atenção:** Ao retornar a uma etapa anterior, os valores sugeridos pelo LLM podem ser perdidos e precisarão ser reeditados.
-
-⚠️**Atenção:** O usuário pode editar qualquer informação sugerido pelo LLM porém o ArchHypo.AI Plugin solicitará uma justificativa para ser utilizada no aprendizado do LLM.
 
 ---
 
-**5) Avaliação do Impacto:**
+**4) Uncertainty Assessment:**
 
-O sistema também solicita que o usuário avalie o **impacto potencial** da hipótese na arquitetura do sistema considerando o pior cenário plausível. 
+In this step, the user must classify the **level of uncertainty** associated with the hypothesis. The available levels are:
 
-Os níveis disponíveis são:
+- Very High
+- High  
+- Medium  
+- Low
+- Very Low
 
-- Muito Alto
-- Alto  
-- Médio  
-- Baixo
-- Muito Baixo
+  ![Uncertainty](img/image-6.png)
+
+This classification represents the degree of technical unknown or risk involved.
+
+ℹ️ **Information:** The LLM uses previously classified cards to generate more accurate and contextualized recommendations, as shown in the figure below:
+
+![Uncertainty History](img/image-20.png)
+
+⚠️**Warning:** When returning to a previous step, the values suggested by the LLM may be lost and will need to be re-edited.
+
+⚠️**Warning:** The user can edit any information suggested by the LLM, but the ArchHypo.AI Plugin will request a justification to be used for LLM training.
+
+---
+
+**5) Impact Assessment:**
+
+The system also asks the user to assess the **potential impact** of the hypothesis on the system's architecture, considering the plausible worst-case scenario. 
+
+The available levels are:
+
+- Very High
+- High  
+- Medium  
+- Low
+- Very Low
   
-  ![Impacto](img/image-7.png)
+  ![Impact](img/image-7.png)
   
-**Como avaliar o impacto?**
+**How to assess the impact?**
 
-A escolha do nível de impacto deve considerar os seguintes critérios:
+The choice of impact level should consider the following criteria:
 
- - Complexidade de implementação: A hipótese exige mudanças significativas ou introduz tecnologias novas?
- - Riscos para desempenho, segurança ou interoperabilidade: A hipótese pode comprometer aspectos críticos do sistema?
- - Dependência entre componentes: A hipótese afeta múltiplos módulos ou exige alterações em partes interdependentes?
+ - Implementation complexity: Does the hypothesis require significant changes or introduce new technologies?
+ - Risks to performance, security, or interoperability: Could the hypothesis compromise critical aspects of the system?
+ - Dependency between components: Does the hypothesis affect multiple modules or require changes in interdependent parts?
 
-ℹ️ **Informação:** O LLM aproveita os cards previamente classificados para gerar recomendações mais precisas e contextualizadas.
+ℹ️ **Information:** The LLM uses previously classified cards to generate more accurate and contextualized recommendations, as shown in the figure below:
 
-⚠️**Atenção:** Ao retornar a uma etapa anterior, os valores sugeridos pelo LLM podem ser perdidos e precisarão ser reeditados.
+![Impact History](img/image-21.png)
 
-⚠️**Atenção:** O usuário pode editar qualquer informação sugerido pelo LLM porém o ArchHypo.AI Plugin solicitará uma justificativa para ser utilizada no aprendizado do LLM.
+⚠️**Warning:** When returning to a previous step, the values suggested by the LLM may be lost and will need to be re-edited.
 
+⚠️**Warning:** The user can edit any information suggested by the LLM, but the ArchHypo.AI Plugin will request a justification to be used for LLM training.
 
----
-
-Após preencher todos os campos, o plugin cria automaticamente um **card no Trello** com as informações da incerteza e da hipótese.
-
-![Card Criado](img/image-8.png)
 
 ---
 
-#### 🏷️ Add/Atualizar Métricas  
+After filling in all the fields, the plugin automatically creates a **Trello card** with the uncertainty and hypothesis information.
 
-Para adicionar ou atualizar as métricas nos cards do Trello, o usuário deve acessar o card de Hipótese ou o Item do Plano Técnico e utilizar o botão conforme ilustrado abaixo:
-
-![Botao Power UP](img/image-9.png)
-
-Em seguida, clique em "Add/Atualizar Métricas" para incluir ou modificar os labels correspondentes:
-
-![Add/Atualizar Métrica](img/image-10.png)
-
-As métricas adicionadas variam conforme o tipo de card:
-
-- Hipóteses → *Nível de Incerteza, Impacto e Requisito Não Funcional*
-- Itens do Plano Técnico → *Padrões ArchHypo*
-
-Após a ação, os labels serão exibidos conforme o exemplo:
-
-![Metricas Adicionado](img/image-11.png)
-
-#### 📋 Criar Plano Técnico  
-
-A partir de uma Hipótese previamente criada, o usuário pode gerar um Plano Técnico com o objetivo de reduzir o nível de incerteza associado à hipótese.
-
-**1) Acessar o Card da Hipótese:**
-
-O primeiro passo é acessar o card da hipótese desejada e clicar no botão indicado na imagem abaixo:
-
-![Botao Power Up](img/image-9.png)
-
-![Bottao Plano Tecnico](img/image-12.png)
+![Card Created](img/image-8.png)
 
 ---
 
-**2) Gerar Itens do Plano Técnico:**
+#### 🏷️ Add/Update Metrics  
 
-Ao clicar em **Gerar**, o LLM cria automaticamente de **até 5 itens técnicos padronizados**, com base na hipótese selecionada:
+To add or update metrics on Trello cards, the user must enable "Add/Update Metrics" to include or modify the corresponding labels:
 
-![Gerar](img/image-13.png)
+![Add/Update Metric](img/image-10.png)
 
-Após selecionar os itens, o usuário pode clicar em **Próximo** para iniciar a classificação dos padrões ou em **Editar** para modificar as informações previamente inseridas.
+The added metrics vary depending on the card type:
+
+- Hypotheses → *Uncertainty Level, Impact, and Non-Functional Requirement*
+- Technical Plan Items → *ArchHypo Patterns*
+
+After the action, the labels will be displayed as in the example:
+![Metrics Added](img/image-11.png)
+
+ℹ️ **Information:** Once enabled, the card metrics are automatically updated every 1 second.
+
+#### 📋 Create Technical Plan  
+
+From a previously created Hypothesis, the user can generate a Technical Plan to reduce the level of uncertainty associated with the hypothesis.
+
+**1) Access the Hypothesis Card:**
+
+The first step is to access the desired hypothesis card and click the button indicated in the image below:
+
+![Power-Up Button](img/image-9.png)
+
+![Technical Plan Button](img/image-12.png)
 
 ---
-**3) Selecionar e Editar Itens:**
 
-Após os items serem gerados, o usuário pode selecionar os itens mais relevantes e editar seus conteúdos conforme necessário:
+**2) Generate Technical Plan Items:**
 
-![Editar](img/image-14.png)
+When clicking **Generate**, the LLM automatically creates up to **5 standardized technical items**, based on the selected hypothesis:
 
-Após selecionar e editar os itens, o usuário pode clicar em **Próximo** para iniciar a classificação dos padrões.
+![Generate](img/image-13.png)
 
-**4) Classificação dos Padrões ArchHypo:**
+After selecting the items, the user can click **Next** to start classifying the patterns or **Edit** to modify the previously entered information.
 
-Finalizada a seleção, o LLM realiza a classificação automática dos itens com base nos Padrões ArchHypo, apresentando uma justificativa para cada escolha:
+---
+**3) Select and Edit Items:**
 
-![Padrao](img/image-15.png)
+After the items are generated, the user can select the most relevant items and edit their contents as needed:
 
-Caso o usuário deseje alterar o padrão sugerido, é possível selecionar outro entre os disponíveis na documentação: [Padrões ArchHypo](README-padroes.md) 
+![Edit](img/image-14.png)
 
-**5) Criar Itens no Quadro:**
+After selecting and editing the items, the user can click **Next** to start the pattern classification.
 
-Ao clicar em Criar, os itens selecionados são adicionados automaticamente à coluna ITEMS PLANO TÉCNICO, com a seguinte nomenclatura:
+**4) Classification of ArchHypo Patterns:**
 
-- H1 → Hipótese 1
+Once the selection is complete, the LLM automatically classifies the items based on ArchHypo Patterns, providing a justification for each choice:
+
+![Pattern](img/image-15.png)
+
+If the user wishes to change the suggested pattern, it is possible to select another from those available in the documentation: [ArchHypo Patterns](README-padroes.md) 
+
+**5) Create Items on the Board:**
+
+By clicking `Create`, the selected items are automatically added to the `TECHNICAL PLAN ITEMS` column, with the following naming convention:
+
+- H1 → Hypothesis 1
 - TPI1 → Tech Plan Item 1
 
-![Plano Criar](img/image-16.png)
+![Create Plan](img/image-16.png)
 
 
-![Plano Board](img/image-17.png)
+![Plan on Board](img/image-17.png)
 
  ---
    
-#### 📊 **Visualizar Métricas** 
+#### 📊 **View Metrics** Use the *ArchHypo Metrics* feature to track the number of classified cards as described in the `Add/Update Metrics` section.
 
-Utilize o recurso *ArchHypo Métricas* para acompanhar a quantidade de cards classificados conforme descrito na seção Adicionar ou Atualizar Métricas.
+To access it, click the button indicated in the image below:
 
-Para acessar, clique no botão indicado na imagem abaixo:
+![Metrics Button](img/image-18.png)
 
-![Botao Métricas](img/image-18.png)
+The panel displays different types of charts, such as:
 
-O painel apresenta diferentes tipos de gráficos, como:
-
-- Quantidade de hipóteses com Nível de Incerteza e Impacto
-- Quantidade de hipóteses com Requisitos Não Funcionais (NFR)
-- Quantidade de itens do plano técnico com o [Padrões ArchHypo](README-padroes.md)
+- Number of hypotheses by Uncertainty Level and Impact
+- Number of hypotheses by Non-Functional Requirements (NFR)
+- Number of technical plan items by [ArchHypo Patterns](README-padroes.md)
 
   
-![Métricas](img/image-19.png)
+![Metrics](img/image-19.png)
 
 
 --------------------------------------------------------------------------------------------------------------------
 
 ArchHypo.AI Plugin
 
-Equipe de Pesquisa e Desenvolvimento
+Research and Development Team
 
-[https://github.com/jonathancs-tester/ArchHypo-Trello-Plugin](https://github.com/jonathancs-tester/ArchHypo-Trello-Plugin)
-
-
+[🔗 GitHub Repository](https://github.com/jonathancs-tester/ArchHypo-Trello-Plugin)
