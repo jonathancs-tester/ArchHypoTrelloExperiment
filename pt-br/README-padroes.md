@@ -56,6 +56,7 @@ Esse padrão promove a revisão contínua da arquitetura ao longo do ciclo de vi
 **Exemplo:**
 
 Se implementarmos monitoramento contínuo na arquitetura, com análise automática de qualidade de código, vulnerabilidades de segurança e desempenho, então seremos capazes de identificar problemas arquiteturais, técnicos e operacionais de forma antecipada, evitando débitos técnicos e falhas em produção.
+
 ---
   
 ## Learning from Experiments
