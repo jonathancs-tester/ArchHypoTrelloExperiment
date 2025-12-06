@@ -99,8 +99,8 @@ These uncertainties represent doubts, gaps, or undefined aspects that may impact
 Look for parts of the email that indicate lack of clarity, pending decisions, vague requirements, or technical concerns. These elements usually point to uncertainties that need to be explored and validated.
 
 
-> **From:** equipe@sistema.com.br  
-> **To:** desenvolvimento@sistema.com.br  
+> **From:** product-manager@archhypo.com.br  
+> **To:** developement-team@archhypo.com.br  
 > **Subject:** Questions about system features and architecture  
 > 
 > Hello Development Team,
