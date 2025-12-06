@@ -98,9 +98,9 @@ Essas incertezas representam dúvidas, lacunas ou aspectos indefinidos que podem
 💡 Dica:
 Procure por trechos do e-mail que indiquem falta de clareza, decisões pendentes, requisitos vagos ou preocupações técnicas. Esses elementos geralmente apontam para incertezas que precisam ser exploradas e validadas.
 
-> **De:** equipe@sistema.com.br
-> 
-> **Para:** desenvolvimento@sistema.com.br
+> **De:** product-manager@archhypo.com.br 
+>
+> **Para:**  developement-team@archhypo.com.br
 > 
 > **Assunto:** Dúvidas sobre funcionalidades e arquitetura do sistema  
 >  
