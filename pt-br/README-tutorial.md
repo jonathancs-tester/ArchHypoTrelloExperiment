@@ -1,5 +1,6 @@
 # 📑 Sumário
-- [📖 User Guide](#-user-guide)
+- [📖 Guia do Usuário](#-guia-do-usuário)
+  - [Selecionar Idioma](#-selecionar-idioma)
   - [Como Usar (Passo a Passo)](#-como-usar-passo-a-passo)
     - [Criar um Board Template](#%EF%B8%8F-criar-um-board-template)
     - [Criar uma Incerteza](#-criar-uma-incerteza)
@@ -7,7 +8,18 @@
     - [Criar Plano Técnico](#-criar-plano-técnico)
     - [Visualizar Métricass](#-visualizar-métricas)
   
-## 📖 User Guide
+## 📖 Guia do Usuário
+
+### 🌐 Selecionar Idioma
+
+Essa funcionalidade permite que os usuários escolham entre Português (PT) e Inglês (EN) para visualizar as informações do board no idioma de sua preferência.
+
+ - Procure pelo botão ou menu suspenso com a opção de idiomas no topo ou em uma seção destacada do board.
+ - Clique em **Português** para português ou **English** para inglês.
+
+ ![Seleciona idioma](img/image-22.png)
+
+Após a seleção, os títulos, descrições e etiquetas do board serão atualizados automaticamente para o idioma escolhido.
 
 ### 🚀 Como Usar (Passo a Passo)
 
@@ -103,7 +115,9 @@ Nesta etapa, o usuário deve classificar o **nível de incerteza** associado à 
 
 Essa classificação representa o grau de desconhecimento ou risco técnico envolvido.
 
-ℹ️ **Informação:** O LLM aproveita os cards previamente classificados para gerar recomendações mais precisas e contextualizadas.
+ℹ️ **Informação:** O LLM aproveita os cards previamente classificados para gerar recomendações mais precisas e contextualizadas, conforme a figura abaixo:
+
+![Historico Incerteza](img/image-20.png)
 
 ⚠️**Atenção:** Ao retornar a uma etapa anterior, os valores sugeridos pelo LLM podem ser perdidos e precisarão ser reeditados.
 
@@ -133,7 +147,9 @@ A escolha do nível de impacto deve considerar os seguintes critérios:
  - Riscos para desempenho, segurança ou interoperabilidade: A hipótese pode comprometer aspectos críticos do sistema?
  - Dependência entre componentes: A hipótese afeta múltiplos módulos ou exige alterações em partes interdependentes?
 
-ℹ️ **Informação:** O LLM aproveita os cards previamente classificados para gerar recomendações mais precisas e contextualizadas.
+ℹ️ **Informação:** O LLM aproveita os cards previamente classificados para gerar recomendações mais precisas e contextualizadas, conforme a figura abaixo:
+
+![Historico Impacto](img/image-21.png)
 
 ⚠️**Atenção:** Ao retornar a uma etapa anterior, os valores sugeridos pelo LLM podem ser perdidos e precisarão ser reeditados.
 
@@ -150,11 +166,7 @@ Após preencher todos os campos, o plugin cria automaticamente um **card no Trel
 
 #### 🏷️ Add/Atualizar Métricas  
 
-Para adicionar ou atualizar as métricas nos cards do Trello, o usuário deve acessar o card de Hipótese ou o Item do Plano Técnico e utilizar o botão conforme ilustrado abaixo:
-
-![Botao Power UP](img/image-9.png)
-
-Em seguida, clique em "Add/Atualizar Métricas" para incluir ou modificar os labels correspondentes:
+Para adicionar ou atualizar as métricas nos cards do Trello, o usuário deve habilitar em "Add/Atualizar Métricas" para incluir ou modificar os labels correspondentes:
 
 ![Add/Atualizar Métrica](img/image-10.png)
 
@@ -164,8 +176,9 @@ As métricas adicionadas variam conforme o tipo de card:
 - Itens do Plano Técnico → *Padrões ArchHypo*
 
 Após a ação, os labels serão exibidos conforme o exemplo:
-
 ![Metricas Adicionado](img/image-11.png)
+
+ℹ️ **Informação:** Após habilidato, as métricas do dos cards são atualizados automaticamente a cada 1 segundo.
 
 #### 📋 Criar Plano Técnico  
 
@@ -244,6 +257,6 @@ ArchHypo.AI Plugin
 
 Equipe de Pesquisa e Desenvolvimento
 
-[https://github.com/jonathancs-tester/ArchHypo-Trello-Plugin](https://github.com/jonathancs-tester/ArchHypo-Trello-Plugin)
+[🔗 GitHub Repository](https://github.com/jonathancs-tester/ArchHypo-Trello-Plugin)
 
 
