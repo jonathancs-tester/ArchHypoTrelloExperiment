@@ -62,13 +62,13 @@ Para isso, siga o passo a passo descrito no [Guia do Usuário](README-tutorial.m
 Durante o treinamento, os participantes deverão realizar as seguintes atividades:
 
 1) **Acesse o link correspondente ao grupo designado**, conforme listado abaixo:
-   - Groupo 1: [link](https://trello.com/invite/b/693462ed57177c7a77e7bd22/ATTI60533275a87bed686f2759dbf6813972321A2425/archhypo-v020-group-1)
-   - Groupo 2: [link](https://trello.com/invite/b/69346306d493d4db06a60c25/ATTIe5a6c8b2de33130d63f789434e96e5a00230882A/archhypo-v020-group-2)
-   - Groupo 3: [link](https://trello.com/invite/b/69346316e3f97f4d8777ce7f/ATTI47a47b7a21fc96fbf56c70afd53d4f080D273054/archhypo-v020-group-3)
-   - Groupo 4: [link](https://trello.com/invite/b/693463283c2d644ee9ff0678/ATTIbd0c03915309d53550d6d59ae372205dDBC4E09E/archhypo-v020-group-4)
-   - Groupo 5: [link](https://trello.com/invite/b/69346337829bfce748fdff67/ATTI6562eefcb7d023816148d7129f47d4d7F1E7AF10/archhypo-v020-group-5)
-   - Groupo 6: [link](https://trello.com/invite/b/693463547df100065d0f2e3d/ATTI466d851c723fe37da3c99cb6673417442836BECD/archhypo-v020-group-6)
-   - Groupo 7: [link](https://trello.com/invite/b/693463441f7152da293f1ded/ATTIaccda511893ad8933f58f1b593b284296D2AB2C8/archhypo-v020-group-7)
+   - Groupo 1: [link](https://trello.com/invite/b/693c92d465251954e50862b1/ATTI4f7a8d5e6e3ecca4fd49eaed567bcaa15F306654/archhypo-v020-grupo-1)
+   - Groupo 2: [link](https://trello.com/invite/b/693c9369bd67ad47ad4ac2a2/ATTI9fc50e2c682a2e5b1999bd973308f356E9780C1F/archhypo-v020-grupo-2)
+   - Groupo 3: [link](https://trello.com/invite/b/693c93702e50ef7ee9700de2/ATTIfc3ea3e474b64039d9f5b86a188b08de4CAB72E9/archhypo-v020-grupo-3)
+   - Groupo 4: [link](https://trello.com/invite/b/693c9376c9276a37d1f8d668/ATTIff0f3bb6b030baba9d97534d094a22c4228E1EC6/archhypo-v020-grupo-4)
+   - Groupo 5: [link](https://trello.com/invite/b/693c937e9d28c7828e8c74d9/ATTIf715579c610d50437e3bddff77d6147717A93DDB/archhypo-v020-grupo-5)
+   - Groupo 6: [link](https://trello.com/invite/b/693c9389a52c119a7b5541d9/ATTIf3d7aa5722b2eaedd8c4a96e43f2fc27784DAB03/archhypo-v020-grupo-6)
+   - Groupo 7: [link](https://trello.com/invite/b/693c9393632fbec83533ec7a/ATTIc504a6c3bfe134b09bccacbcc438bf353BF9A460/archhypo-v020-grupo-7)
      
 2) Registre uma incerteza no sistema e observe:
 
