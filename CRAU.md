@@ -6,9 +6,11 @@
 | ----------------------------- | ------------- | ----------------------------------------------------------- | -------------------------- | ------------------------ |
 | Uncertainty Discovery Agent   | Discovery     | Identifica incertezas em requisitos, tecnologias e decisões | Backlog, ADRs, requisitos  | Lista de incertezas      |
 | Hypothesis Formulation Agent  | Analysis      | Converte incertezas em hipóteses testáveis                  | Incertezas identificadas   | Hipóteses estruturadas   |
+| NFR Agent                     | Analysis      | lassifica a hipotese em NFR                                 | Hipótese                   | NFR                      |
 | Impact Assessment Agent       | Risk          | Avalia impacto potencial da hipótese                        | Hipótese                   | Score de impacto         |
 | Uncertainty Assessment Agent  | Risk          | Mede nível de incerteza                                     | Hipótese, evidências       | Score de incerteza       |
 | Technical Plan Agent          | Planning      | Define plano técnico para validar hipótese                  | Hipótese + risco           | Plano de experimentação  |
+| Architectural Patterns Agent  | Experiment    | Classifica a hipótese dado ArchHypo Patterns                | Hipótese                   | SArchHypo Pattern        |
 | Spike Design Agent            | Experiment    | Cria spikes técnicos                                        | Hipótese                   | Spike backlog            |
 | PoC Agent                     | Experiment    | Gera provas de conceito                                     | Hipótese, arquitetura      | Resultado do PoC         |
 | Trade-off Analysis Agent      | Analysis      | Analisa trade-offs arquiteturais                            | Alternativas arquiteturais | Matriz de trade-offs     |
@@ -30,13 +32,15 @@ subgraph Discovery["Discovery"]
 end
 
 subgraph Analysis["Analysis"]
-    IA[Impact]
-    UA[Uncertainty]
+    NFR[NFR ]
+    IA[Impact Assessment ]
+    UA[Uncertainty Assessment ]
     TA[Trade-offs]
 end
 
 subgraph Experimentation["Experimentation"]
     TP[Technical Plan]
+    AP[ArchHypo Pattern]
     S[Spike]
     P[PoC]
     EX[Experiment]
@@ -101,13 +105,13 @@ KB -.-> TR
 | Componente           | Responsabilidade              |
 | -------------------- | ----------------------------- |
 | Agent Orchestrator   | Coordena agentes              |
-| Agent Registry       | Descobre agentes disponíveis  |
+| Agent Registry       | Disponibiliza os agentes   |
 | Memory Layer         | Contexto compartilhado        |
-| Knowledge Layer      | ADRs, requisitos, arquitetura |
+| Knowledge Layer      | ADRs, requisitos, arquitetura (RAG)|
 | Governance Layer     | Permissões e auditoria        |
-| Evaluation Layer     | Qualidade das respostas       |
+| Evaluation Layer     | Qualidade/Padronização das respostas       |
 | Observability Layer  | Métricas dos agentes          |
-| Tool Connector Layer | Integrações externas          |
+| Tool Connector Layer | Integrações externas    (Opcional)      |
 
 
 ```mermaid
