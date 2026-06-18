@@ -68,6 +68,7 @@ H --> IA
 H --> UA
 H --> TA
 
+NFR --> TP
 IA --> TP
 UA --> TP
 TA --> TP
@@ -77,6 +78,7 @@ TP --> S
 TP --> P
 TP --> EX
 
+AP --> EC
 S --> EC
 P --> EC
 EX --> EC
