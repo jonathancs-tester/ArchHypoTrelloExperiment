@@ -63,6 +63,7 @@ end
 
 U --> H
 
+H --> NFR
 H --> IA
 H --> UA
 H --> TA
@@ -71,6 +72,7 @@ IA --> TP
 UA --> TP
 TA --> TP
 
+TP --> AP
 TP --> S
 TP --> P
 TP --> EX
