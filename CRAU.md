@@ -1,4 +1,4 @@
-# Cognitive Reference Uncertainty Architecture (CRUA)
+# ArchWISE
 
 ## Agents Catalog
 
@@ -6,7 +6,7 @@
 | ----------------------------- | ------------- | ----------------------------------------------------------- | -------------------------- | ------------------------ |
 | Uncertainty Discovery Agent   | Discovery     | Identifica incertezas em requisitos, tecnologias e decisões | Backlog, ADRs, requisitos  | Lista de incertezas      |
 | Hypothesis Formulation Agent  | Analysis      | Converte incertezas em hipóteses testáveis                  | Incertezas identificadas   | Hipóteses estruturadas   |
-| NFR Agent                     | Analysis      | lassifica a hipotese em NFR                                 | Hipótese                   | NFR                      |
+| NFR Agent                     | Analysis      | Classifica a hipotese em NFR                                | Hipótese                   | NFR                      |
 | Impact Assessment Agent       | Risk          | Avalia impacto potencial da hipótese                        | Hipótese                   | Score de impacto         |
 | Uncertainty Assessment Agent  | Risk          | Mede nível de incerteza                                     | Hipótese, evidências       | Score de incerteza       |
 | Technical Plan Agent          | Planning      | Define plano técnico para validar hipótese                  | Hipótese + risco           | Plano de experimentação  |
