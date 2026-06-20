@@ -2,25 +2,22 @@
 
 ## Agents Catalog
 
-| Agente                        | Tipo          | Descrição                                                   | Input                      | Output                   |
-| ----------------------------- | ------------- | ----------------------------------------------------------- | -------------------------- | ------------------------ |
-| Uncertainty Discovery Agent   | Discovery     | Identifica incertezas em requisitos, tecnologias e decisões | Backlog, ADRs, requisitos  | Lista de incertezas      |
-| Hypothesis Formulation Agent  | Analysis      | Converte incertezas em hipóteses testáveis                  | Incertezas identificadas   | Hipóteses estruturadas   |
-| NFR Agent                     | Analysis      | Classifica a hipotese em NFR                                | Hipótese                   | NFR                      |
-| Impact Assessment Agent       | Risk          | Avalia impacto potencial da hipótese                        | Hipótese                   | Score de impacto         |
-| Uncertainty Assessment Agent  | Risk          | Mede nível de incerteza                                     | Hipótese, evidências       | Score de incerteza       |
-| Technical Plan Agent          | Planning      | Define plano técnico para validar hipótese                  | Hipótese + risco           | Plano de experimentação  |
-| Architectural Patterns Agent  | Experiment    | Classifica a hipótese dado ArchHypo Patterns                | Hipótese                   | SArchHypo Pattern        |
-| Spike Design Agent            | Experiment    | Cria spikes técnicos                                        | Hipótese                   | Spike backlog            |
-| PoC Agent                     | Experiment    | Gera provas de conceito                                     | Hipótese, arquitetura      | Resultado do PoC         |
-| Trade-off Analysis Agent      | Analysis      | Analisa trade-offs arquiteturais                            | Alternativas arquiteturais | Matriz de trade-offs     |
-| Evidence Collection Agent     | Observability | Coleta evidências dos experimentos                          | Logs, métricas, testes     | Evidências               |
-| Learning Agent                | Knowledge     | Extrai aprendizados                                         | Evidências                 | Lições aprendidas        |
-| Decision Agent                | Governance    | Decide confirmar, refutar ou adiar hipótese                 | Evidências e aprendizados  | Decisão                  |
-| ADR Agent                     | Documentation | Gera Architecture Decision Records                          | Decisão                    | ADR                      |
-| Traceability Agent            | Governance    | Liga hipótese → experimento → decisão                       | Todos os artefatos         | Grafo de rastreabilidade |
-| Portfolio Risk Agent          | Portfolio     | Analisa riscos arquiteturais acumulados                     | Todas hipóteses            | Dashboard executivo      |
-| Continuous Architecture Agent | Strategy      | Sugere decisões adiáveis                                    | Roadmap e hipóteses        | Backlog arquitetural     |
+| Agente                        | Tipo              | Descrição                                                   | Input                      | Output                   |
+| ----------------------------- | -------------     | ----------------------------------------------------------- | -------------------------- | ------------------------ |
+| Uncertainty Discovery Agent   | Discovery         | Identifica incertezas em requisitos, tecnologias e decisões | Backlog, ADRs, requisitos  | Lista de incertezas      |
+| Hypothesis Formulation Agent  | Discovery         | Converte incertezas em hipóteses testáveis                  | Incertezas identificadas   | Hipóteses estruturadas   |
+| NFR Agent                     | Analysis          | Classifica a hipotese em NFR                                | Hipótese                   | NFR                      |
+| Impact Assessment Agent       | Analysis          | Avalia impacto potencial da hipótese                        | Hipótese                   | Score de impacto         |
+| Uncertainty Assessment Agent  | Analysis          | Mede nível de incerteza                                     | Hipótese, evidências       | Score de incerteza       |
+| Trade-off  Agent              | Analysis          | Analisa trade-offs arquiteturais                            | Alternativas arquiteturais | Matriz de trade-offs     |
+| Technical Plan Agent          | Experimentation   | Define plano técnico para validar hipótese                  | Hipótese + risco           | Plano de experimentação  |
+| Architectural Patterns Agent  | Experimentation   | Classifica a hipótese dado ArchHypo Patterns                | Hipótese                   | ArchHypo Pattern        |
+| Experiment Agent              | Experimentation   | Gera provas de conceito                                     | Hipótese, arquitetura      | Resultado do PoC         |
+| Evidence Collection Agent     | Learning          | Coleta evidências dos experimentos                          | Logs, métricas, testes     | Evidências               |
+| Learning Agent                | Learning          | Extrai aprendizados                                         | Evidências                 | Lições aprendidas        |
+| Decision Agent                | Decision          | Decide confirmar, refutar ou adiar hipótese                 | Evidências e aprendizados  | Decisão                  |
+| Documentation Agent           | Decision          | Gera Architecture Decision Records                          | Decisão                    | ADR                      |
+| Continuous Architecture Agent | Decision          | Sugere decisões adiáveis                                    | Roadmap e hipóteses        | Backlog arquitetural     |
 
 
 ```mermaid
