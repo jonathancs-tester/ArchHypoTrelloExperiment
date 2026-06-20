@@ -1,5 +1,7 @@
 # ArchWISE
 
+<img width="1693" height="1361" alt="image" src="https://github.com/user-attachments/assets/87baa06d-f5e8-44ba-a685-d97836d34717" />
+
 ## Agents Catalog
 
 | Agente                        | Tipo              | Descrição                                                   | Input                      | Output                   |
@@ -20,137 +22,7 @@
 | Continuous Architecture Agent | Decision          | Sugere decisões adiáveis                                    | Roadmap e hipóteses        | Backlog arquitetural     |
 
 
-```mermaid
-flowchart TB
-
-subgraph Discovery["Discovery"]
-    U[Uncertainty Discovery]
-    H[Hypothesis Formulation]
-end
-
-subgraph Analysis["Analysis"]
-    NFR[NFR ]
-    IA[Impact Assessment ]
-    UA[Uncertainty Assessment ]
-    TA[Trade-offs]
-end
-
-subgraph Experimentation["Experimentation"]
-    TP[Technical Plan]
-    AP[ArchHypo Pattern]
-    S[Spike]
-    P[PoC]
-    EX[Experiment]
-end
-
-subgraph Learning["Learning"]
-    EC[Evidence Collection]
-    LA[Learning]
-end
-
-subgraph Decision["Decision"]
-    DA[Decision]
-    ADR[ADR]
-end
-
-subgraph Governance["Governance"]
-    TR[Traceability]
-    PR[Portfolio Risk]
-end
-
-U --> H
-
-H --> NFR
-H --> IA
-H --> UA
-H --> TA
-
-NFR --> TP
-IA --> TP
-UA --> TP
-TA --> TP
-
-TP --> AP
-TP --> S
-TP --> P
-TP --> EX
-
-AP --> EC
-S --> EC
-P --> EC
-EX --> EC
-
-EC --> LA
-
-LA --> DA
-
-DA --> ADR
-DA --> TR
-
-TR --> PR
-
-%% Cross-cutting concern
-KB[(Knowledge Base)]
-
-KB -.-> U
-KB -.-> H
-KB -.-> TP
-KB -.-> DA
-KB -.-> TR
-```
-
 ## Core Agent
 
-### Mandatory Components
 
-| Componente           | Responsabilidade              |
-| -------------------- | ----------------------------- |
-| Agent Orchestrator   | Coordena agentes              |
-| Agent Registry       | Disponibiliza os agentes   |
-| Memory Layer         | Contexto compartilhado        |
-| Knowledge Layer      | ADRs, requisitos, arquitetura (RAG)|
-| Governance Layer     | Permissões e auditoria        |
-| Evaluation Layer     | Qualidade/Padronização das respostas       |
-| Observability Layer  | Métricas dos agentes          |
-| Tool Connector Layer | Integrações externas    (Opcional)      |
-
-
-```mermaid
-flowchart TB
-
-    subgraph Platform["ArchHypo Agent Framework"]
-
-        ORCH[Agent Orchestrator]
-
-        subgraph Foundation["Foundation Services"]
-
-            REG[Agent Registry]
-            MEM[Memory Layer]
-            KNOW[Knowledge Layer]
-        end
-
-        subgraph Governance["Governance Services"]
-
-            GOV[Governance Layer]
-            EVAL[Evaluation Layer]
-            OBS[Observability Layer]
-        end
-
-        subgraph Integration["Integration Services"]
-
-            TOOL[Tool Connector Layer]
-        end
-
-    end
-
-    ORCH <--> REG
-
-    ORCH <--> MEM
-    ORCH <--> KNOW
-
-    ORCH --> GOV
-    ORCH --> EVAL
-    ORCH --> OBS
-
-    ORCH --> TOOL
-  ```
+<img width="1062" height="1441" alt="image" src="https://github.com/user-attachments/assets/92f94edf-862e-4d33-9fa5-2bff1a8626b4" />
