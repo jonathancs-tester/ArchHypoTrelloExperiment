@@ -110,5 +110,5 @@
 
 ## Core Agent
 
+<img width="1062" height="1441" alt="image" src="https://github.com/user-attachments/assets/7d6447d0-39da-4393-b48f-fe3038d5066d" />
 
-<img width="1062" height="1441" alt="image" src="https://github.com/user-attachments/assets/92f94edf-862e-4d33-9fa5-2bff1a8626b4" />
