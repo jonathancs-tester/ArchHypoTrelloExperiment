@@ -108,7 +108,6 @@
 | `context_enrichment` | Support | Enriches context with external/internal knowledge | Discovery / Learning |
 
 
-## Core Agent
-
-<img width="1062" height="1441" alt="image" src="https://github.com/user-attachments/assets/7d6447d0-39da-4393-b48f-fe3038d5066d" />
+## Agent and Subagent Harness
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/1e8aebd5-9d17-4120-b338-990945e8061a" />
 
