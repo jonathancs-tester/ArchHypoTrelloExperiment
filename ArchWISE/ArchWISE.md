@@ -1,4 +1,16 @@
-# Architecture Components
+# Arquitetura ArchHypo Agent Harness
+
+## Visão Geral
+
+A arquitetura **ArchHypo Agent Harness** segue um modelo de **Sistema Hierárquico de Agentes Autônomos** (*Hierarchical Autonomous Multi-Agent System*).
+
+Diferentemente de arquiteturas baseadas em um fluxo rígido de grafos, o **Coordinator Agent** é responsável apenas por compreender o objetivo, planejar em alto nível e delegar tarefas aos especialistas.
+
+Cada **Subagent** encapsula toda a inteligência necessária para resolver seu domínio de atuação, incluindo planejamento, raciocínio, loops internos, uso de ferramentas, acesso à memória e até mesmo a criação de novos Subagents.
+
+A **Harness Platform** fornece toda a infraestrutura compartilhada necessária para execução dos agentes, como memória, base de conhecimento, integrações, governança e observabilidade.
+
+---
 
 ## Coordinator Agent
 
@@ -103,19 +115,6 @@ Esta arquitetura oferece diversas vantagens:
 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/1e8aebd5-9d17-4120-b338-990945e8061a" />
 
-# Arquitetura ArchHypo Agent Harness
-
-## Visão Geral
-
-A arquitetura **ArchHypo Agent Harness** segue um modelo de **Sistema Hierárquico de Agentes Autônomos** (*Hierarchical Autonomous Multi-Agent System*).
-
-Diferentemente de arquiteturas baseadas em um fluxo rígido de grafos, o **Coordinator Agent** é responsável apenas por compreender o objetivo, planejar em alto nível e delegar tarefas aos especialistas.
-
-Cada **Subagent** encapsula toda a inteligência necessária para resolver seu domínio de atuação, incluindo planejamento, raciocínio, loops internos, uso de ferramentas, acesso à memória e até mesmo a criação de novos Subagents.
-
-A **Harness Platform** fornece toda a infraestrutura compartilhada necessária para execução dos agentes, como memória, base de conhecimento, integrações, governança e observabilidade.
-
----
 
 # Fluxo de Execução
 
