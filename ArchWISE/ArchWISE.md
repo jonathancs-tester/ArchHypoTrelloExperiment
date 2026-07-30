@@ -1,10 +1,340 @@
-# ArchWISE
+# Architecture Components
+
+## Coordinator Agent
+
+Responsabilidades:
+
+- compreender o objetivo;
+- criar o planejamento estratégico;
+- selecionar especialistas;
+- delegar objetivos;
+- monitorar execuções;
+- consolidar resultados;
+- tomar a decisão final.
+
+O Coordinator permanece simples e desacoplado da lógica específica de cada domínio.
+
+---
+
+## Subagents
+
+Cada Subagent representa um especialista autônomo.
+
+Suas capacidades incluem:
+
+- planejamento;
+- raciocínio;
+- reflexão;
+- utilização de ferramentas;
+- acesso à memória;
+- recuperação de conhecimento;
+- autoavaliação;
+- loops internos;
+- criação dinâmica de novos Subagents.
+
+Cada especialista é responsável por sua própria estratégia de execução.
+
+---
+
+## Harness Platform
+
+A Harness Platform disponibiliza serviços compartilhados para todos os agentes.
+
+### Camada de Memória
+
+- Memória de Trabalho;
+- Memória Conversacional;
+- Memória de Longo Prazo;
+- Banco Vetorial.
+
+### Camada de Conhecimento
+
+- ADRs;
+- Documentação Arquitetural;
+- Boas Práticas;
+- Lições Aprendidas;
+- Padrões Arquiteturais.
+
+### Ferramentas
+
+- GitHub;
+- MCP Servers;
+- Busca;
+- Análise de Código;
+- Processadores de Documentos.
+
+### Integrações
+
+- LLMs;
+- APIs;
+- CI/CD;
+- Sistemas Corporativos;
+- Notificações.
+
+### Governança
+
+- Controle de Acesso;
+- Auditoria;
+- Políticas;
+- Segurança.
+
+### Observabilidade
+
+- Logs;
+- Métricas;
+- Traces;
+- Dashboards;
+- Monitoramento de Custos;
+- Consumo de Tokens.
+
+---
+
+# Benefícios da Arquitetura
+
+Esta arquitetura oferece diversas vantagens:
+
+- o Coordinator permanece simples, independentemente do crescimento do sistema;
+- cada Subagent pode evoluir de forma independente;
+- novos especialistas podem ser adicionados sem modificar a orquestração;
+- toda a lógica especializada permanece encapsulada;
+- a criação dinâmica de novos agentes permite resolver problemas cada vez mais complexos;
+- a infraestrutura compartilhada reduz duplicação de funcionalidades;
+- o aprendizado contínuo melhora progressivamente a qualidade das decisões arquiteturais.
+
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/1e8aebd5-9d17-4120-b338-990945e8061a" />
+
+# Arquitetura ArchHypo Agent Harness
+
+## Visão Geral
+
+A arquitetura **ArchHypo Agent Harness** segue um modelo de **Sistema Hierárquico de Agentes Autônomos** (*Hierarchical Autonomous Multi-Agent System*).
+
+Diferentemente de arquiteturas baseadas em um fluxo rígido de grafos, o **Coordinator Agent** é responsável apenas por compreender o objetivo, planejar em alto nível e delegar tarefas aos especialistas.
+
+Cada **Subagent** encapsula toda a inteligência necessária para resolver seu domínio de atuação, incluindo planejamento, raciocínio, loops internos, uso de ferramentas, acesso à memória e até mesmo a criação de novos Subagents.
+
+A **Harness Platform** fornece toda a infraestrutura compartilhada necessária para execução dos agentes, como memória, base de conhecimento, integrações, governança e observabilidade.
+
+---
+
+# Fluxo de Execução
+
+## Passo 1 — Recebimento do Objetivo
+
+O processo inicia quando um usuário fornece um objetivo de alto nível.
+
+Exemplos:
+
+- Identificar incertezas arquiteturais;
+- Gerar hipóteses arquiteturais;
+- Avaliar uma arquitetura de software;
+- Gerar um ADR;
+- Analisar trade-offs;
+- Planejar experimentos arquiteturais.
+
+Neste momento, o **Coordinator Agent** entende apenas **o que deve ser feito**, mas não **como será executado**.
+
+---
+
+## Passo 2 — Planejamento Estratégico
+
+O Coordinator Agent analisa:
+
+- objetivo solicitado;
+- contexto disponível;
+- artefatos arquiteturais;
+- restrições;
+- decisões anteriores;
+- especialistas disponíveis.
+
+Com essas informações, ele cria um plano de execução de alto nível.
+
+Exemplo:
+
+```
+Objetivo
+
+↓
+
+Discovery Agent
+↓
+
+Hypothesis Agent
+↓
+
+Impact Agent
+↓
+
+Trade-off Agent
+```
+
+O Coordinator define apenas quais especialistas serão responsáveis pela execução.
+
+---
+
+## Passo 3 — Delegação dos Objetivos
+
+Após o planejamento, o Coordinator delega objetivos para um ou mais Subagents.
+
+```
+Coordinator Agent
+
+↓
+
+Hypothesis Subagent
+```
+
+Cada delegação contém:
+
+- objetivo;
+- contexto;
+- requisitos;
+- restrições;
+- critérios de sucesso;
+- artefatos necessários.
+
+O Coordinator **não define o algoritmo interno** que será utilizado pelo especialista.
+
+---
+
+## Passo 4 — Execução Autônoma do Subagent
+
+Ao receber a tarefa, o Subagent torna-se completamente autônomo.
+Cada Subagent possui seus próprios loop/ciclos de raciocínio.
+
+Ele pode executar diversas skills internamente, como:
+
+- elaborar um plano;
+- refletir sobre o problema;
+- executar raciocínio iterativo;
+- consultar memória;
+- recuperar conhecimento via RAG;
+- utilizar ferramentas externas;
+- validar resultados;
+- refinar respostas.
+
+Toda essa lógica permanece encapsulada.
+
+Enquanto isso, o Coordinator apenas acompanha o estado da execução.
+
+---
+
+## Passo 5 — Utilização de Ferramentas
+
+Durante sua execução, o Subagent pode utilizar diversos recursos externos, por exemplo:
+
+- GitHub;
+- Jira;
+- Confluence;
+- Banco Vetorial;
+- RAG;
+- MCP Servers;
+- APIs internas;
+- Bancos de Dados;
+- Modelos de Linguagem (LLMs);
+- Documentações arquiteturais.
+
+O Coordinator não precisa conhecer quais ferramentas estão sendo utilizadas.
+
+---
+
+
+## Passo 6 — Retorno dos Resultados
+
+Ao concluir sua execução, o Subagent retorna:
+
+- descobertas;
+- evidências;
+- nível de confiança;
+- riscos identificados;
+- recomendações;
+- métricas;
+- rastreabilidade.
+
+---
+
+## Passo 7 — Consolidação dos Resultados
+
+O Coordinator reúne as informações produzidas pelos diversos especialistas.
+
+Exemplo:
+
+```
+Discovery
+
++
+
+Hypothesis
+
++
+
+Impact
+
++
+
+Trade-off
+
++
+
+Evidence
+
+↓
+
+Decisão
+```
+
+Neste momento ocorre a síntese das informações.
+
+---
+
+## Passo 8 — Tomada de Decisão
+
+Com todas as evidências disponíveis, o Coordinator decide entre:
+
+- finalizar o processo;
+- solicitar outro especialista;
+- executar novos experimentos;
+- buscar mais evidências;
+- retornar o resultado ao usuário.
+
+---
+
+## Passo 9 — Geração dos Artefatos
+
+Dependendo do objetivo inicial, a arquitetura pode produzir:
+
+- ADRs;
+- Hipóteses Arquiteturais;
+- Relatórios Técnicos;
+- Evidências;
+- Planos de Experimentos;
+- Avaliações de Riscos;
+- Atualizações da Base de Conhecimento.
+
+---
+
+## Passo 10 — Aprendizado Contínuo
+
+Após a execução, todo conhecimento gerado pode ser armazenado para reutilização futura.
+
+Exemplos:
+
+- novas evidências;
+- ADRs;
+- lições aprendidas;
+- métricas;
+- decisões arquiteturais;
+- resultados experimentais.
+
+Nas próximas execuções, os agentes poderão utilizar esse conhecimento para tomar decisões melhores.
+
+---
+
+## SubAgents Catalog
 
 <img width="1693" height="1361" alt="image" src="https://github.com/user-attachments/assets/87baa06d-f5e8-44ba-a685-d97836d34717" />
 
-## Agents Catalog
-
-| Agente                        | Tipo              | Descrição                                                   | Input                      | Output                   |
+| SubAgents                     | Agent              | Descrição                                                   | Input                      | Output                   |
 | ----------------------------- | -------------     | ----------------------------------------------------------- | -------------------------- | ------------------------ |
 | Uncertainty Discovery Agent   | Discovery         | Identifica incertezas em requisitos, tecnologias e decisões | Backlog, ADRs, requisitos  | Lista de incertezas      |
 | Hypothesis Formulation Agent  | Discovery         | Converte incertezas em hipóteses testáveis                  | Incertezas identificadas   | Hipóteses estruturadas   |
@@ -22,7 +352,7 @@
 | Continuous Architecture Agent | Decision          | Sugere decisões adiáveis                                    | Roadmap e hipóteses        | Backlog arquitetural     |
 
 
-# Skill Catalog v2
+# Skill Catalog
 
 ## 🔍 Discovery
 
@@ -106,8 +436,4 @@
 | `architecture_smell_detection` | Support | Detects architectural smells and inconsistencies | Discovery / Impact |
 | `traceability_linking` | Support | Links hypothesis → experiment → evidence → decision (audit trail) | All |
 | `context_enrichment` | Support | Enriches context with external/internal knowledge | Discovery / Learning |
-
-
-## Agent and Subagent Harness
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/1e8aebd5-9d17-4120-b338-990945e8061a" />
 
