@@ -6,7 +6,7 @@ A arquitetura **ArchHypo Agent Harness** segue um modelo de **Sistema Hierárqui
 
 Diferentemente de arquiteturas baseadas em um fluxo rígido de grafos, o **Coordinator Agent** é responsável apenas por compreender o objetivo, planejar em alto nível e delegar tarefas aos especialistas.
 
-Cada **Subagent** encapsula toda a inteligência necessária para resolver seu domínio de atuação, incluindo planejamento, raciocínio, loops internos, uso de ferramentas, acesso à memória e até mesmo a criação de novos Subagents.
+Cada **Subagent** encapsula toda a inteligência necessária para resolver seu domínio de atuação, incluindo planejamento, raciocínio, loops internos, uso de ferramentas, acesso à memória e skills.
 
 A **Harness Platform** fornece toda a infraestrutura compartilhada necessária para execução dos agentes, como memória, base de conhecimento, integrações, governança e observabilidade.
 
