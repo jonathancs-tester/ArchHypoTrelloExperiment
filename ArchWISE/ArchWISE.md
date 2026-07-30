@@ -335,7 +335,7 @@ Nas próximas execuções, os agentes poderão utilizar esse conhecimento para t
 
 <img width="1693" height="1361" alt="image" src="https://github.com/user-attachments/assets/87baa06d-f5e8-44ba-a685-d97836d34717" />
 
-| SubAgents                     | Agent              | Descrição                                                   | Input                      | Output                   |
+| SubAgents                     | Categoria              | Descrição                                                   | Input                      | Output                   |
 | ----------------------------- | -------------     | ----------------------------------------------------------- | -------------------------- | ------------------------ |
 | Uncertainty Discovery Agent   | Discovery         | Identifica incertezas em requisitos, tecnologias e decisões | Backlog, ADRs, requisitos  | Lista de incertezas      |
 | Hypothesis Formulation Agent  | Discovery         | Converte incertezas em hipóteses testáveis                  | Incertezas identificadas   | Hipóteses estruturadas   |
