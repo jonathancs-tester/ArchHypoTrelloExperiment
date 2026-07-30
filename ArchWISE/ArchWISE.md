@@ -113,7 +113,9 @@ Esta arquitetura oferece diversas vantagens:
 - a infraestrutura compartilhada reduz duplicação de funcionalidades;
 - o aprendizado contínuo melhora progressivamente a qualidade das decisões arquiteturais.
 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/1e8aebd5-9d17-4120-b338-990945e8061a" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/015d4050-5867-42b5-bad7-57b101564ead" />
+
+<!-- <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/1e8aebd5-9d17-4120-b338-990945e8061a" /> -->
 
 
 # Fluxo de Execução
